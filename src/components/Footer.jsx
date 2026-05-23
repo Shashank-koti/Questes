@@ -1,0 +1,103 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { MapPin, Phone, Mail, Award, Globe, Heart, Shield } from 'lucide-react';
+
+const Footer = () => {
+  return (
+    <footer className="bg-brand-dark text-white relative overflow-hidden border-t border-white/5">
+
+      <div className="container mx-auto px-4 md:px-6 py-10 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+          {/* Brand Info */}
+          <div className="space-y-4">
+            <Link to="/" className="flex items-baseline group">
+              <span className="font-serif font-black text-2xl tracking-tight text-brand-primary transition-transform duration-300 group-hover:scale-105">Q</span>
+              <span className="font-serif font-bold text-xl tracking-tight text-white">uestes</span>
+              <span className="ml-1 w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
+            </Link>
+            <p className="text-brand-faint/70 text-sm leading-relaxed max-w-xs">
+              A premier global pharmaceutical manufacturer delivering patient-centric formulations across Cardiology, ICU, and Pain Management.
+            </p>
+
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="font-bold text-base mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-sm text-brand-faint/75">
+              <li>
+                <Link to="/about/vision-mission" className="hover:text-brand-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Our Vision & Mission
+                </Link>
+              </li>
+              <li>
+                <Link to="/portfolio" className="hover:text-brand-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Therapeutics Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link to="/science" className="hover:text-brand-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>R&D Sciences & DNA
+                </Link>
+              </li>
+              <li>
+                <Link to="/infrastructure" className="hover:text-brand-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Scale & Infrastructure
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Therapeutic Areas */}
+          <div>
+            <h4 className="font-bold text-base mb-4">Therapeutic Focus</h4>
+            <ul className="space-y-2 text-sm text-brand-faint/75">
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Cardiology Range
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-secondary"></span> ICU Critical Care
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Sterile Injectables
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-secondary"></span> Pain Management
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Details */}
+          <div>
+            <h4 className="font-bold text-base mb-4">Contact HQ</h4>
+            <ul className="space-y-3 text-sm text-brand-faint/75">
+              <li className="flex gap-3">
+                <MapPin className="w-4 h-4 text-brand-primary flex-shrink-0 mt-0.5" />
+                <span>
+                  Genome Valley, Hyderabad,<br />
+                  Telangana 500078, India
+                </span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-brand-secondary" />
+                <span>+91 40 1234 5678</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail className="w-4 h-4 text-brand-primary" />
+                <span>info@questespharma.com</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div className="mt-10 pt-6 border-t border-white/5 text-center text-xs text-brand-muted flex flex-col sm:flex-row justify-center items-center gap-4">
+          <p>&copy; {new Date().getFullYear()} Questes Pharma Pvt. Ltd | All rights reserved | Powered by <a href="https://arccreativemedia.com/" target="_blank" rel="noopener noreferrer">Arc Creative Media</a></p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
