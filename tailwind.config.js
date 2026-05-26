@@ -8,10 +8,12 @@ export default {
     extend: {
       colors: {
         brand: {
-          primary: '#064C9D',
+          // primary: '#064C9D',
+          primary: '#084995',
           secondary: '#0A2E5C',
           modern: '#1E6FD9',
-          accent: '#DE1283',
+          // accent: '#DE1283',
+          accent: '#d42278',
           soft: '#F04FA2',
           dark: '#1A1F36',
           light: '#FFFFFF',

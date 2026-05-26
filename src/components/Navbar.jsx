@@ -83,9 +83,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   to={link.to}
-                  className={`flex items-center text-sm font-semibold transition-colors duration-300 hover:text-brand-primary ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'
-                    }`}
-                >
+                  className={`flex items-center text-sm font-semibold transition-colors duration-300 hover:text-brand-modern ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'}`}>
                   {link.name}
                 </Link>
               )}
