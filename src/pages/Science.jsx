@@ -29,10 +29,10 @@ const Science = () => {
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-brand-primary" /> R&D Paradigms
+            <Sparkles className="w-4 h-4 text-brand-accent" /> R&D Paradigms
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Our <span className="text-brand-primary">Science</span> & DNA
+            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Science</span> & DNA
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
             Formulation innovations, stringent batch testing, and our cultural foundation of absolute quality.
@@ -53,10 +53,10 @@ const Science = () => {
               className="space-y-6"
             >
               <div className="space-y-3">
-                <span className="text-brand-primary font-bold tracking-wider uppercase text-xs block">Scientific Innovation</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scientific Innovation</span>
                 <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
                   Healthcare Through <br />
-                  <span className="text-brand-primary">Advanced R&D.</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Advanced R&D.</span>
                 </h2>
                 <p className="text-brand-muted leading-relaxed font-sans font-light text-base max-w-lg">
                   At Questes Pharma, our core lies in pioneering formulation research. We push the boundaries of molecular stability and efficacy to deliver therapies that redefine patient care globally.

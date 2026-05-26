@@ -27,7 +27,7 @@ const HeroSlider = () => {
             opacity: [0.1, 0.2, 0.1],
           }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-brand-secondary rounded-full mix-blend-screen filter blur-[130px]"
+          className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-brand-accent rounded-full mix-blend-screen filter blur-[130px]"
         />
         <motion.div
           animate={{
@@ -35,7 +35,7 @@ const HeroSlider = () => {
             opacity: [0.15, 0.25, 0.15],
           }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-          className="absolute bottom-0 -left-40 w-[500px] h-[500px] bg-brand-primary rounded-full mix-blend-screen filter blur-[150px]"
+          className="absolute bottom-0 -left-40 w-[500px] h-[500px] bg-brand-modern rounded-full mix-blend-screen filter blur-[150px]"
         />
       </div>
 
@@ -98,8 +98,8 @@ const HeroSlider = () => {
                     <Button
                       variant="contained"
                       onClick={() => navigate(heroSlides[current].link)}
-                      className="group/btn relative overflow-hidden bg-brand-primary hover:bg-brand-secondary text-white px-8 py-4 rounded-full font-bold text-sm md:text-base normal-case shadow-[0_4px_14px_rgba(223,30,97,0.35)] hover:shadow-[0_6px_20px_rgba(223,30,97,0.5)] transition-all duration-300"
-                      sx={{ borderRadius: '9999px', backgroundColor: '#DF1E61', '&:hover': { backgroundColor: '#B31048' } }}
+                      className="group/btn relative overflow-hidden bg-brand-primary hover:bg-brand-secondary text-white px-8 py-4 rounded-full font-bold text-sm md:text-base normal-case shadow-[0_4px_14px_rgba(6,76,157,0.35)] hover:shadow-[0_6px_20px_rgba(6,76,157,0.5)] transition-all duration-300"
+                      sx={{ borderRadius: '9999px', backgroundColor: '#064C9D', '&:hover': { backgroundColor: '#0A2E5C' } }}
                     >
                       <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/25 to-transparent -translate-x-full group-hover/btn:animate-[shimmer_1.5s_infinite]"></span>
                       {heroSlides[current].btn}
@@ -119,7 +119,7 @@ const HeroSlider = () => {
             key={idx}
             onClick={() => setCurrent(idx)}
             className={`h-1.5 rounded-full transition-all duration-500 ease-out focus:outline-none ${current === idx
-              ? 'w-10 bg-[#E91E63] shadow-[0_0_12px_rgba(233,30,99,0.7)]'
+              ? 'w-10 bg-[#064C9D] shadow-[0_0_12px_rgba(6,76,157,0.7)]'
               : 'w-4.5 bg-white/35 hover:bg-white/60'
               }`}
             style={{ width: current === idx ? '40px' : '18px' }}

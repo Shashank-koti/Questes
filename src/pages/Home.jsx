@@ -59,16 +59,16 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="absolute -bottom-8 -right-4 md:-right-12 bg-white/90 backdrop-blur-xl p-6 md:p-8 rounded-[2rem] shadow-[0_20px_50px_rgba(14,22,36,0.1)] border border-white max-w-[200px] md:max-w-[280px]"
+                className="absolute -bottom-8 right-2 sm:-right-4 md:-right-12 bg-white/90 backdrop-blur-xl p-6 md:p-8 rounded-[2rem] shadow-[0_20px_50px_rgba(14,22,36,0.1)] border border-white max-w-[200px] md:max-w-[280px]"
               >
                 <div className="flex items-center justify-between border-t border-brand-border/30 ">
                   <div>
-                    <p className="text-2xl md:text-3xl font-black text-brand-primary">100<span className="text-base md:text-lg">+</span></p>
+                    <p className="text-2xl md:text-3xl font-black text-brand-primary">100<span className="text-base md:text-lg text-brand-accent">+</span></p>
                     <p className="text-[10px] md:text-xs font-bold text-brand-dark uppercase tracking-wider">SKUs</p>
                   </div>
                   <div className="w-px h-10 bg-brand-border/30 mx-2"></div>
                   <div>
-                    <p className="text-2xl md:text-3xl font-black text-brand-secondary">100<span className="text-base md:text-lg">%</span></p>
+                    <p className="text-2xl md:text-3xl font-black text-brand-secondary">100<span className="text-base md:text-lg text-brand-soft">%</span></p>
                     <p className="text-[10px] md:text-xs font-bold text-brand-dark uppercase tracking-wider">cGMP</p>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ const Home = () => {
               >
                 <Link
                   to="/about/questes-pharma"
-                  className="group inline-flex items-center justify-center gap-3 bg-brand-dark hover:bg-brand-primary text-white font-semibold px-8 py-4 rounded-full transition-all duration-500 ease-out shadow-lg"
+                  className="group inline-flex items-center justify-center gap-3 bg-brand-dark hover:bg-gradient-to-r hover:from-brand-accent hover:to-brand-soft text-white font-semibold px-8 py-4 rounded-full transition-all duration-500 ease-out shadow-lg"
                 >
                   Discover Our Story
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -126,7 +126,7 @@ const Home = () => {
 
           <div className="flex flex-col md:flex-row md:items-end justify-center gap-8 mb-16 md:mb-24">
             <div className="max-w-2xl space-y-4 text-center">
-              <span className="text-[11px] font-bold text-brand-primary uppercase tracking-[0.2em] block">
+              <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
                 Capabilities
               </span>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark leading-tight tracking-tight">
@@ -157,7 +157,7 @@ const Home = () => {
                   {/* Floating Action Button */}
                   <Link
                     to={card.link}
-                    className="absolute top-4 right-4 z-20 w-10 h-10 bg-white/90 backdrop-blur text-brand-dark rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 shadow-xl hover:bg-brand-primary hover:text-white"
+                    className="absolute top-4 right-4 z-20 w-10 h-10 bg-white/90 backdrop-blur text-brand-dark rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 shadow-xl hover:bg-brand-accent hover:text-white"
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </Link>
@@ -165,7 +165,7 @@ const Home = () => {
 
                 {/* Card Content */}
                 <div className="p-6 md:p-8 bg-white relative z-20">
-                  <h3 className="text-xl md:text-2xl font-serif font-bold text-brand-dark mb-3 group-hover:text-brand-primary transition-colors duration-300">
+                  <h3 className="text-xl md:text-2xl font-serif font-bold text-brand-dark mb-3 group-hover:text-brand-accent transition-colors duration-300">
                     {card.title}
                   </h3>
                   <p className="text-brand-muted font-sans font-light leading-relaxed">
@@ -178,9 +178,9 @@ const Home = () => {
           </div>
 
           {/* Stats Display area */}
-          <div className="mt-32 pt-20 border-t border-brand-border/10">
+          <div className="mt-16 md:mt-32 pt-12 md:pt-20 border-t border-brand-border/10">
             <div className="text-center max-w-xl mx-auto mb-12 space-y-4">
-              <span className="text-[11px] font-bold text-brand-secondary uppercase tracking-[0.2em] block">
+              <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
                 At a Glance
               </span>
               <h3 className="text-3xl md:text-4xl font-serif font-black text-brand-dark">Questes Global Footprint</h3>

@@ -12,7 +12,7 @@ const Contact = () => {
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-brand-primary" /> Contact Us
+            <Sparkles className="w-4 h-4 text-brand-accent" /> Contact Us
           </span>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-black text-white leading-tight tracking-tight">
             Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">With Us</span>
@@ -24,17 +24,17 @@ const Contact = () => {
       </section>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-7xl pt-24">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-7xl pt-12 md:pt-24">
         
         <div className="flex flex-col lg:flex-row items-start justify-between gap-16 lg:gap-24">
           
           {/* Text and Info Column */}
           <div className="w-full lg:w-5/12 pt-4">
-            <span className="text-brand-primary font-bold tracking-[0.15em] uppercase text-xs mb-6 block">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-[0.15em] uppercase text-xs mb-6 block">
               CONTACT US
             </span>
             
-            <h2 className="text-[2.75rem] leading-[1.1] font-bold text-brand-dark mb-8 font-serif">
+            <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] leading-[1.1] font-bold text-brand-dark mb-8 font-serif">
               Let's Build Something <br className="hidden md:block"/>
               <span className="text-brand-secondary">Meaningful Together</span>
             </h2>

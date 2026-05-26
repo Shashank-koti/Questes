@@ -8,12 +8,15 @@ export default {
     extend: {
       colors: {
         brand: {
-          primary: '#DF1E61',
-          secondary: '#B31048',
-          dark: '#0E1624',
-          light: '#FCFCFD',
-          faint: '#F8FAFC',
-          muted: '#64748B',
+          primary: '#064C9D',
+          secondary: '#0A2E5C',
+          modern: '#1E6FD9',
+          accent: '#DE1283',
+          soft: '#F04FA2',
+          dark: '#1A1F36',
+          light: '#FFFFFF',
+          faint: '#F5F9FF',
+          muted: '#5C6B8A',
           border: '#E2E8F0',
         }
       },

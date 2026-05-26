@@ -13,10 +13,10 @@ const QuestesPharma = () => {
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-brand-primary" /> About Us
+            <Sparkles className="w-4 h-4 text-brand-accent" /> About Us
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Questes <span className="text-brand-primary">Pharma</span>
+            Questes <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Pharma</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-sans font-light leading-relaxed">
             The corporate core of Questes Pharma. Driving pharmaceutical innovation, precision manufacturing, and global healthcare access.
@@ -37,10 +37,10 @@ const QuestesPharma = () => {
               className="space-y-6"
             >
               <div>
-                <span className="text-brand-primary font-bold tracking-wider uppercase text-xs block mb-2">Our Corporate Identity</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block mb-2">Our Corporate Identity</span>
                 <h2 className="text-2xl md:text-3xl font-serif font-black text-brand-dark leading-tight">
                   Formulations that Care. <br />
-                  <span className="text-brand-primary">Chemistry for a Better World.</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Chemistry for a Better World.</span>
                 </h2>
               </div>
 

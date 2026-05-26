@@ -34,10 +34,10 @@ const Careers = () => {
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-brand-primary" /> Join Our Team
+            <Sparkles className="w-4 h-4 text-brand-accent" /> Join Our Team
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Work at <span className="text-brand-primary">Questes</span>
+            Work at <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Questes</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
             Shape the future of global healthcare alongside top scientists, developers, and quality control experts.
@@ -73,10 +73,10 @@ const Careers = () => {
               className="space-y-5 order-1 lg:order-2"
             >
               <div>
-                <span className="text-brand-primary font-bold tracking-wider uppercase text-xs block mb-2">Our Culture</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block mb-2">Our Culture</span>
                 <h2 className="text-2xl md:text-3xl font-serif font-black text-brand-dark leading-tight">
                   Unlocking Potential. <br />
-                  <span className="text-brand-primary">Driving Innovation.</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Driving Innovation.</span>
                 </h2>
               </div>
               <p className="text-brand-muted leading-relaxed font-sans font-light text-sm max-w-lg">
@@ -109,7 +109,7 @@ const Careers = () => {
 
           {/* Application Form Section */}
           <div id="apply-form" className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-[3rem] p-10 md:p-16 border border-brand-border/80 shadow-2xl relative overflow-hidden">
+            <div className="bg-white rounded-[2rem] sm:rounded-[3rem] p-5 sm:p-10 md:p-16 border border-brand-border/80 shadow-2xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-brand-faint rounded-bl-full -z-0"></div>
               <div className="relative z-10 text-center mb-12 space-y-3">
                 <h3 className="text-3xl md:text-4xl font-serif font-black text-brand-dark">Start Your Journey</h3>

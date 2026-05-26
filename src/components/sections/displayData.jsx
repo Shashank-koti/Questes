@@ -8,7 +8,7 @@ const displayData = () => {
       value: "5+",
       label: "Continents",
       desc: "Delivering crucial therapeutics globally across European, Asian, Australian.",
-      icon: <Globe2 className="w-6 h-6 text-brand-primary" />
+      icon: <Globe2 className="w-6 h-6 text-brand-accent" />
     },
     {
       value: "100+",
@@ -20,7 +20,7 @@ const displayData = () => {
       value: "30+",
       label: "Years Domain Expertise",
       desc: "Deep knowledge in pharmaceutical sciences led by veteran researchers and technicians.",
-      icon: <Award className="w-6 h-6 text-brand-primary" />
+      icon: <Award className="w-6 h-6 text-brand-accent" />
     },
     {
       value: "100%",

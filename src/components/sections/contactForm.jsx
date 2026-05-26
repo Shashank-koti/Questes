@@ -23,20 +23,20 @@ const contactForm = () => {
   };
 
   return (
-    <div className="bg-white rounded-3xl p-8 md:p-12 border border-brand-border shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-full">
+    <div className="bg-white rounded-3xl p-5 sm:p-8 md:p-12 border border-brand-border shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-full">
       <div className="mb-8">
         <h3 className="text-2xl font-bold text-brand-dark mb-2">Send us a Message</h3>
         <p className="text-brand-muted font-light text-sm">We'll get back to you within 24 hours.</p>
       </div>
-      
+
       <form onSubmit={handleSubmit} className="space-y-6">
-        
+
         <div>
           <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
             FULL NAME <span className="text-red-400">*</span>
           </label>
-          <input 
-            type="text" 
+          <input
+            type="text"
             name="name"
             required
             value={formData.name}
@@ -50,8 +50,8 @@ const contactForm = () => {
             <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
               EMAIL <span className="text-red-400">*</span>
             </label>
-            <input 
-              type="email" 
+            <input
+              type="email"
               name="email"
               required
               value={formData.email}
@@ -63,8 +63,8 @@ const contactForm = () => {
             <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
               MOBILE <span className="text-red-400">*</span>
             </label>
-            <input 
-              type="tel" 
+            <input
+              type="tel"
               name="mobile"
               required
               value={formData.mobile}
@@ -78,8 +78,8 @@ const contactForm = () => {
           <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
             COUNTRY <span className="text-red-400">*</span>
           </label>
-          <input 
-            type="text" 
+          <input
+            type="text"
             name="country"
             required
             value={formData.country}
@@ -92,7 +92,7 @@ const contactForm = () => {
           <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
             MESSAGE <span className="text-red-400">*</span>
           </label>
-          <textarea 
+          <textarea
             name="message"
             required
             rows="4"
@@ -103,14 +103,13 @@ const contactForm = () => {
           ></textarea>
         </div>
 
-        <button 
-          type="submit" 
+        <button
+          type="submit"
           disabled={formStatus !== 'idle'}
-          className={`w-full py-4 rounded-xl font-bold text-white transition-all duration-300 flex items-center justify-center gap-2 ${
-            formStatus === 'success' 
-              ? 'bg-green-500' 
-              : 'bg-brand-dark hover:bg-brand-primary shadow-lg hover:shadow-xl hover:-translate-y-0.5'
-          }`}
+          className={`w-full py-4 rounded-xl font-bold text-white transition-all duration-300 flex items-center justify-center gap-2 ${formStatus === 'success'
+            ? 'bg-green-500'
+            : 'bg-brand-primary hover:bg-brand-dark shadow-lg hover:shadow-xl hover:-translate-y-0.5'
+            }`}
         >
           {formStatus === 'idle' && <>Submit <Send className="w-4 h-4 ml-1" /></>}
           {formStatus === 'submitting' && (

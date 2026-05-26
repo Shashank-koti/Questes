@@ -31,10 +31,10 @@ const VisionMission = () => {
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-brand-primary" /> Core Purpose
+            <Sparkles className="w-4 h-4 text-brand-accent" /> Core Purpose
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Vision & <span className="text-brand-primary">Mission</span>
+            Vision & <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Mission</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
             Guiding our research, manufacturing precision, and commitment to global healthcare accessibility.
@@ -43,8 +43,8 @@ const VisionMission = () => {
       </section>
 
       {/* Vision & Mission Sections */}
-      <section className="py-24 bg-white relative space-y-32">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-6 space-y-32">
+      <section className="py-16 md:py-24 bg-white relative">
+        <div className="max-w-[1200px] mx-auto px-4 md:px-6 space-y-16 md:space-y-24 lg:space-y-32">
           
           {/* Vision Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -114,9 +114,9 @@ const VisionMission = () => {
           <div className="border-t border-b border-brand-border py-16 relative overflow-hidden text-center">
             <div className="absolute inset-0 bg-brand-light/30 mix-blend-multiply"></div>
             <div className="relative z-10 max-w-4xl mx-auto space-y-8">
-              <span className="text-brand-primary font-bold tracking-[0.2em] uppercase text-xs block">The Foundation of Our Work</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-[0.2em] uppercase text-xs block">The Foundation of Our Work</span>
               <h3 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                Empowering the Future of <span className="text-brand-primary">Healthcare</span>
+                Empowering the Future of <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Healthcare</span>
               </h3>
               <p className="text-brand-muted leading-relaxed text-sm md:text-base font-light">
                 At Questes Pharma, our Vision and Mission are not just statements on a wall—they are the guiding principles embedded in every formulation we create. We stand committed to breaking barriers in medical accessibility and forging a brighter, healthier future for communities everywhere.

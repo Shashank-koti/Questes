@@ -29,10 +29,10 @@ const Infrastructure = () => {
         
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-brand-primary" /> Advanced Facilities
+            <Sparkles className="w-4 h-4 text-brand-accent" /> Advanced Facilities
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Our <span className="text-brand-primary">Infrastructure</span>
+            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Infrastructure</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
             Engineered for absolute clinical compliance, sterile filling, and high-capacity batch manufacturing.
@@ -41,8 +41,8 @@ const Infrastructure = () => {
       </section>
 
       {/* Infrastructure Showcase */}
-      <section className="py-24 bg-white relative">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-6 space-y-24">
+      <section className="py-16 md:py-24 bg-white relative">
+        <div className="max-w-[1200px] mx-auto px-4 md:px-6 space-y-16 md:space-y-24">
           
           {/* R&D Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -97,7 +97,7 @@ const Infrastructure = () => {
               transition={{ duration: 0.8 }}
               className="space-y-5"
             >
-              <span className="text-brand-primary font-bold tracking-wider uppercase text-xs block">Scale & Precision</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scale & Precision</span>
               <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
                 Integrated Manufacturing
               </h2>
