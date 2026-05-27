@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-baseline group">
               <span className="font-serif font-black text-2xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft transition-transform duration-300 group-hover:scale-105">Q</span>
-              <span className="font-serif font-bold text-xl tracking-tight text-white">uestes</span>
+              <span className="font-serif font-bold text-xl tracking-tight text-white">uestus</span>
               <span className="ml-1 w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
             </Link>
             <p className="text-brand-faint/70 text-sm leading-relaxed max-w-xs">

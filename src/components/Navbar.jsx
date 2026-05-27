@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* Logo area */}
         <Link to="/" className="flex items-baseline cursor-pointer group">
           <span className="font-serif font-black text-3xl md:text-4xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft transition-transform duration-300 group-hover:scale-105">Q</span>
-          <span className={`font-serif font-bold text-2xl md:text-3xl tracking-tight transition-colors duration-300 ${forceSolidNav ? 'text-brand-dark' : 'text-white'}`}>uestes</span>
+          <span className={`font-serif font-bold text-2xl md:text-3xl tracking-tight transition-colors duration-300 ${forceSolidNav ? 'text-brand-dark' : 'text-white'}`}>uestus</span>
           <span className="ml-1 w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
         </Link>
 
