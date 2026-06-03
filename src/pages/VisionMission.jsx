@@ -37,7 +37,7 @@ const VisionMission = () => {
             Vision & <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Mission</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Guiding our research, manufacturing precision, and commitment to global healthcare accessibility.
+            We commit to innovate continuously for a better world, to be the leader in all that we do.
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@ const VisionMission = () => {
                 <Eye className="w-8 h-8 text-brand-primary" /> Our Vision
               </h3>
               <p className="text-brand-muted leading-relaxed text-sm md:text-base font-light">
-                To be the global benchmark in pharmaceutical manufacturing, recognized for pioneering formulations that care. We envision a future where cutting-edge therapeutics seamlessly blend with human empathy, consistently ensuring that life-saving medicines remain within everyone's reach across the globe. Our ultimate aim is to inspire healthier lives through sustainable and advanced scientific ingenuity.
+                We envision a world where everyone has access to medicines when they need it, and medical care is qualitatively better.
               </p>
             </motion.div>
 
@@ -105,7 +105,7 @@ const VisionMission = () => {
                 <Target className="w-8 h-8 text-brand-secondary" /> Our Mission
               </h3>
               <p className="text-brand-muted leading-relaxed text-sm md:text-base font-light">
-                To leverage our extensive domain expertise and state-of-the-art infrastructure in developing high-quality, globally compliant therapies. We dedicate ourselves to unmatched operational precision, strict adherence to international cGMP standards, and uncompromising product safety. Our day-to-day mission is to transform complex chemistry into accessible, life-enhancing care.
+                We are on a mission to produce quality medicines, at affordable pricing, employing the best in technology to achieve that. We commit to innovate continuously for a better world, to be the leader in all that we do.
               </p>
             </motion.div>
           </div>

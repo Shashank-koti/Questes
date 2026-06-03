@@ -15,7 +15,7 @@ const Contact = () => {
             <Sparkles className="w-4 h-4 text-brand-accent" /> Contact Us
           </span>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-black text-white leading-tight tracking-tight">
-            Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">With Us</span>
+            Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">With Us</span>
           </h1>
           <p className="text-lg md:text-xl text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
             Reach out to our global coordination teams for business, formulation supplies, or general questions.
@@ -24,23 +24,22 @@ const Contact = () => {
       </section>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-7xl pt-12 md:pt-24">
-        
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-5xl pt-12 md:pt-24">
+
         <div className="flex flex-col lg:flex-row items-start justify-between gap-16 lg:gap-24">
-          
+
           {/* Text and Info Column */}
           <div className="w-full lg:w-5/12 pt-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-[0.15em] uppercase text-xs mb-6 block">
               CONTACT US
             </span>
-            
-            <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] leading-[1.1] font-bold text-brand-dark mb-8 font-serif">
-              Let's Build Something <br className="hidden md:block"/>
-              <span className="text-brand-secondary">Meaningful Together</span>
+
+            <h2 className="text-xl sm:text-2xl lg:text-3xl leading-[1.1] font-bold text-brand-dark mb-8 font-serif">
+              Let's Build Something Meaningful Together
             </h2>
-            
+
             <p className="text-brand-muted leading-relaxed text-[1.05rem] font-light mb-12">
-              Whether you are exploring partnership opportunities, contract manufacturing, product licensing, or simply have a question about our capabilities — we would love to hear from you. Our business development team is ready to discuss how Questes Pharma can support your goals.
+              Whether you are exploring partnership opportunities, contract manufacturing, product licensing, or simply have a question about our capabilities. we would love to hear from you. Our business development team is ready to discuss how Questes Pharma can support your goals.
             </p>
 
             <div className="space-y-8">
@@ -52,7 +51,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-brand-dark text-lg mb-1">Headquarters</h4>
                   <p className="text-brand-muted leading-relaxed font-light text-sm max-w-[280px]">
-                    Plot No. 373, Road Number 8, Kavuturi Residency, Kakatiya Hills, Madhapur, Hyderabad, Telangana 500033
+                    Sirisuns Hirise Building, First & Second Floor, Plot No.13, Sy. No. 70, Image Garden Road, Silicon Valley, Madhapur, Hyderabad-500081
                   </p>
                 </div>
               </div>
@@ -65,8 +64,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-brand-dark text-lg mb-1">Phone</h4>
                   <p className="text-brand-muted font-light text-sm">
-                    +91 40 1234 5678<br/>
-                    +91 40 8765 4321
+                    +91-8121009671
                   </p>
                 </div>
               </div>
@@ -79,8 +77,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-brand-dark text-lg mb-1">Email</h4>
                   <p className="text-brand-muted font-light text-sm">
-                    info@questespharma.com<br/>
-                    sales@questespharma.com
+                    connect@questuspharma.com
                   </p>
                 </div>
               </div>

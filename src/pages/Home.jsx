@@ -83,10 +83,10 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-2xl md:text-3xl lg:text-4xl font-serif font-black text-brand-dark leading-[1.1] tracking-tight"
+                className="text-2xl sm:text-3xl lg:text-3xl font-serif font-black text-brand-dark leading-[1.1] tracking-tight"
               >
-                Precision Medicine <br />
-                <span className="text-brand-primary">for a Better Future.</span>
+                Developed in Hyderabad, <br />
+                <span className="text-brand-primary">accepted world over.</span>
               </motion.h2>
 
               <motion.p
@@ -96,7 +96,7 @@ const Home = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-lg text-brand-muted font-sans font-light leading-relaxed"
               >
-                Questes Pharma pioneers breakthrough pharmaceutical solutions with an unwavering commitment to safety, efficacy, and global health outcomes. Our state-of-the-art facilities bridge the gap between advanced research and accessible treatments.
+                Hyderabad based, at Questus, we are a team of passionate people who are at the forefront of making medicines accessible and affordable for people across 5 continents. We go the extra mile to develop medicines that have an impact world over.
               </motion.p>
 
               <motion.div
@@ -125,13 +125,16 @@ const Home = () => {
         <div className="max-w-[1200px] mx-auto px-4 md:px-6">
 
           <div className="flex flex-col md:flex-row md:items-end justify-center gap-8 mb-16 md:mb-24">
-            <div className="max-w-2xl space-y-4 text-center">
+            <div className="max-w-3xl space-y-4 text-center">
               <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
-                Capabilities
+                WHAT WE OFFER
               </span>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark leading-tight tracking-tight">
-                Comprehensive <br /> Pharmaceutical Solutions
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark leading-tight tracking-tight uppercase">
+                Cardiology - Critical Care Medications - Anesthesia
               </h2>
+              <p className="text-lg text-brand-muted font-sans font-light leading-relaxed mt-4">
+                Quality injectables and OSD critical care medications, anti-infectives, anesthetics, analgesic medicaments. Our products are manufactured to meet various standards. We currently are capable of manufacturing products and meeting prescribed standards of the EU, Brazil, Australia, Russia, India, Ethiopia, Kenya, Philippines and Cambodia.
+              </p>
             </div>
 
           </div>

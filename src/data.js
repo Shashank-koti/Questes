@@ -4,9 +4,9 @@ import { FlaskConical, ShieldCheck, Activity } from 'lucide-react';
 export const heroSlides = [
   {
     id: 2,
-    title: "Driven by Science.",
-    subtitle: "Built for Impact.",
-    desc: "Our research and development efforts focus on creating safe, stable, and effective pharmaceutical products.",
+    title: "Formulations that care.",
+    subtitle: "Chemistry for a better world.",
+    desc: "Hyderabad based, at Questus, we are a team of passionate people who are at the forefront of making medicines accessible and affordable for people across 5 continents.",
     btn: "Our Science",
     link: "/science",
     image: "/images/hero_slide_2.png",
@@ -14,9 +14,9 @@ export const heroSlides = [
   },
   {
     id: 1,
-    title: "Making Essential Medicines",
-    subtitle: "More Accessible.",
-    desc: "A comprehensive portfolio of high-quality injectables and oral solid dosage formulations for hospitals worldwide.",
+    title: "Developed in Hyderabad,",
+    subtitle: "accepted world over.",
+    desc: "Committed to improving the quality of treatment and quality of life, we focus on where it matters most — Cardiology, ICU and Pain management.",
     btn: "View Portfolio",
     link: "/portfolio",
     image: "/images/white_liquid_vitals.png",
@@ -24,9 +24,9 @@ export const heroSlides = [
   },
   {
     id: 3,
-    title: "Partnering for",
-    subtitle: "Better Healthcare.",
-    desc: "We collaborate with global healthcare institutions to deliver reliable medicines where they matter most.",
+    title: "Quality, from start",
+    subtitle: "to finish.",
+    desc: "Quality is paramount because we know what we promise impacts lives. We commit to innovate continuously for a better world, to be the leader in all that we do.",
     btn: "About Us",
     link: "/about/questes-pharma",
     image: "/images/white_injections.png",

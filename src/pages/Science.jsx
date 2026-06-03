@@ -31,11 +31,11 @@ const Science = () => {
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> R&D Paradigms
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Science</span> & DNA
+          <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight uppercase">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">SCIENCE IS</span> OUR QUEST
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Formulation innovations, stringent batch testing, and our cultural foundation of absolute quality.
+            Steeped in Pharma sciences with a collective experience that brings together pharmaceutical chemistry, biotechnology, research & development and expertise in filing.
           </p>
         </div>
       </section>
@@ -55,11 +55,11 @@ const Science = () => {
               <div className="space-y-3">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scientific Innovation</span>
                 <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                  Healthcare Through <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Advanced R&D.</span>
+                  At Questus, we are research driven and <br />
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">passionate about what we do.</span>
                 </h2>
                 <p className="text-brand-muted leading-relaxed font-sans font-light text-base max-w-lg">
-                  At Questes Pharma, our core lies in pioneering formulation research. We push the boundaries of molecular stability and efficacy to deliver therapies that redefine patient care globally.
+                  We are ideally poised to offer indigenously developed medicines for use world over. Our science today helps better the quality of treatment and save lives. To deliver on our promise, we equip ourselves with everything necessary — the expertise, the talent and the infrastructure to make medicines affordable.
                 </p>
               </div>
 
@@ -69,8 +69,8 @@ const Science = () => {
                     <Microscope className="w-5 h-5 text-brand-primary" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-brand-dark mb-1">In-House Innovation</h4>
-                    <p className="text-brand-muted leading-relaxed text-sm">Dedicated laboratories equipped with the latest analytical technologies for robust and scalable drug development.</p>
+                    <h4 className="text-lg font-bold text-brand-dark mb-1">State of the art Research & Development Centre</h4>
+                    <p className="text-brand-muted leading-relaxed text-sm">Some of the best talent in the pharmaceutical segment today do path breaking work from our state-of-the-art Research & Development Centre, in Hyderabad.</p>
                   </div>
                 </div>
 

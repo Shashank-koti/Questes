@@ -15,11 +15,11 @@ const QuestesPharma = () => {
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> About Us
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Questes <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Pharma</span>
+          <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight uppercase">
+            WHO WE <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">ARE</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-sans font-light leading-relaxed">
-            The corporate core of Questes Pharma. Driving pharmaceutical innovation, precision manufacturing, and global healthcare access.
+            Hyderabad based, we are pan-Indian and global at once.
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ const QuestesPharma = () => {
               </div>
 
               <p className="text-brand-muted leading-relaxed text-sm font-sans font-light">
-                Questes Pharma represents a state-of-the-art corporate identity. With deep expertise across critical therapeutic areas, we are a team of passionate people at the forefront of making medicines accessible and affordable globally. We go the extra mile to develop high-quality medicines that have a lasting impact.
+                We are patient-centric formulation manufacturers with focus on medicines for Cardiology, Critical Care and Pain Management. At Questus, we are committed to improving the quality of treatment and quality of life. Our medicines deliver a positive impact, where it matters most — Cardiology, in the ICU and in Pain Management. Some of the pharma industry’s most seasoned talent today provide us the impetus to deliver on our promise. We innovate and push boundaries to bring quality medicines within the reach of patients and care givers.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
@@ -54,8 +54,8 @@ const QuestesPharma = () => {
                     <Award className="w-5 h-5 text-brand-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-brand-dark text-base">30+ Years Expertise</h4>
-                    <p className="text-brand-muted text-xs mt-0.5">Built and led by veteran directors and specialized doctors.</p>
+                    <h4 className="font-bold text-brand-dark text-base">The experience from working with the best.</h4>
+                    <p className="text-brand-muted text-xs mt-0.5">Seasoned experts, proven expertise and a genuine passion for what we do.</p>
                   </div>
                 </div>
 
@@ -64,8 +64,8 @@ const QuestesPharma = () => {
                     <Users className="w-5 h-5 text-brand-secondary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-brand-dark text-base">Seasoned Talent</h4>
-                    <p className="text-brand-muted text-xs mt-0.5">Home to elite chemists, developers, and QA directors.</p>
+                    <h4 className="font-bold text-brand-dark text-base">Home to seasoned talent in pharma sciences.</h4>
+                    <p className="text-brand-muted text-xs mt-0.5">Some of the pharma industry’s most seasoned talent today provide us the impetus to deliver on our promise.</p>
                   </div>
                 </div>
               </div>
@@ -89,9 +89,9 @@ const QuestesPharma = () => {
           {/* Standard of Excellence */}
           <div className="mb-24 relative max-w-4xl mx-auto text-center space-y-6">
             <Star className="w-10 h-10 text-brand-primary mx-auto" />
-            <h3 className="text-2xl md:text-3xl font-serif font-black text-brand-dark">Uncompromising Quality & Standards</h3>
+            <h3 className="text-2xl md:text-3xl font-serif font-black text-brand-dark">Quality, from start to finish</h3>
             <p className="text-brand-muted text-base leading-relaxed font-light">
-              Our advanced development centers strictly comply with international cGMP and regulatory standards. Every dosage, injectable, and formulation undergoes multi-phase batch testing in our state-of-the-art laboratories to guarantee absolute safety, consistency, and therapeutic efficacy.
+              Quality is paramount because we know what we promise impacts lives. The expertise to meet European, Asian, African, Australian and Latin American standards.
             </p>
             <div className="flex flex-wrap justify-center gap-4 pt-4 text-xs font-semibold text-brand-dark">
               <span className="px-4 py-2 rounded-full bg-brand-light border border-brand-border flex items-center gap-2"><ShieldCheck className="w-4 h-4 text-brand-primary" /> cGMP Compliant</span>
@@ -106,10 +106,7 @@ const QuestesPharma = () => {
             <div className="relative z-10 max-w-3xl mx-auto text-center space-y-8">
               <span className="text-brand-secondary font-bold tracking-[0.2em] uppercase text-xs block">Our Enduring Commitment</span>
               <p className="text-xl md:text-2xl text-brand-dark font-serif italic leading-relaxed">
-                "We do not simply manufacture pharmaceuticals; we architect trust. 
-                Our relentless pursuit of perfection ensures that every formulation 
-                leaving our facilities acts as a beacon of hope and healing for 
-                patients across the globe. Our science is our signature."
+                "We commit to innovate continuously for a better world, to be the leader in all that we do."
               </p>
               <div className="pt-2">
                 <div className="w-12 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary mx-auto rounded-full"></div>

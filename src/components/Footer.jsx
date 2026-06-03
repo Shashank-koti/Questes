@@ -75,17 +75,16 @@ const Footer = () => {
               <li className="flex gap-3">
                 <MapPin className="w-4 h-4 text-brand-primary flex-shrink-0 mt-0.5" />
                 <span>
-                  Genome Valley, Hyderabad,<br />
-                  Telangana 500078, India
+                  Sirisuns Hirise Building, First & Second Floor, Plot No.13, Sy. No. 70, Image Garden Road, Silicon Valley, Madhapur, Hyderabad-500081
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-brand-secondary" />
-                <span>+91 40 1234 5678</span>
+                <span>+91-8121009675</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-brand-primary" />
-                <span>info@questespharma.com</span>
+                <span>connect@questuspharma.com</span>
               </li>
             </ul>
           </div>

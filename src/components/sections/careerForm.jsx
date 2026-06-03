@@ -34,11 +34,11 @@ const careerForm = () => {
 
     try {
       const sheetPayload = new URLSearchParams();
-      Object.entries({ ...formData, secret: "critigen_secure_2026" }).forEach(
+      Object.entries({ ...formData, secret: "Questus_secure_2026" }).forEach(
         ([key, value]) => sheetPayload.append(key, value)
       );
 
-      await fetch("https://script.google.com/macros/s/AKfycbxm2IKZkYBtnsP8_olK-BYbTCZHuRHcdbdkHv6iBzI2tp8A_gFSXP8KV0z6aWvYx2lK/exec", {
+      await fetch("", {
         method: "POST",
         mode: "no-cors",
         headers: {

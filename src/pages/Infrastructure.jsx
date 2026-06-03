@@ -35,7 +35,7 @@ const Infrastructure = () => {
             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Infrastructure</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Engineered for absolute clinical compliance, sterile filling, and high-capacity batch manufacturing.
+            Manufacturing wide range of quality products that improves lives.
           </p>
         </div>
       </section>
@@ -72,10 +72,10 @@ const Infrastructure = () => {
             >
               <span className="text-brand-secondary font-bold tracking-wider uppercase text-xs block">Advanced Research</span>
               <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                Center of Excellence
+                State of the art center of excellence
               </h2>
               <p className="text-brand-muted leading-relaxed text-base font-light">
-                Our state-of-the-art R&D laboratory infrastructure is dedicated to pioneering formulation research. Fully equipped with the latest analytical instruments for high-precision testing, stability validation, and dissolution profiling.
+                We have invested to establish the state-of-the-art manufacturing facilities meeting global pharma standards. spreading over 12,000 sq.ft.
               </p>
               <ul className="space-y-3 pt-3 border-t border-brand-border/60">
                 {['Advanced Formulation Suites', 'HPLC & Gas Chromatography', 'Stability Testing Chambers', 'ISO 9001:2015 Operations'].map((item, idx) => (
@@ -99,10 +99,10 @@ const Infrastructure = () => {
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scale & Precision</span>
               <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                Integrated Manufacturing
+                Integrated R&D and Manufacturing centre
               </h2>
               <p className="text-brand-muted leading-relaxed text-base font-light">
-                A sprawling complex engineered for high-capacity, sterile production. Designed to ensure zero cross-contamination and optimal batch consistency at massive commercial scale, adhering strictly to global cGMP standards.
+                It is spread over an area of 6 acres and will be engaged in production of Oncology and Critical Care molecules. The manufacturing facilities are approvable by major global regulatory agencies including the USFDA, MHRA, EMA, TGA, MCC, ANVISA and more.
               </p>
               <ul className="space-y-3 pt-3 border-t border-brand-border/60">
                 {['Class 100 Cleanrooms', 'Automated Filling Lines', 'Zero Liquid Discharge (ZLD)', 'cGMP Compliant Zones'].map((item, idx) => (
