@@ -73,7 +73,7 @@ const HeroSlider = () => {
                     transition={{ delay: 0.4, duration: 0.8 }}
                   >
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-white leading-tight tracking-tight drop-shadow-lg">
-                      {heroSlides[current].title} <span className="text-brand-primary block sm:inline drop-shadow-md">{heroSlides[current].subtitle}</span>
+                      {heroSlides[current].title} <span className="text-brand-primary block sm:inline drop-shadow-xl">{heroSlides[current].subtitle}</span>
                     </h2>
                   </motion.div>
 

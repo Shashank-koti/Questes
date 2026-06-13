@@ -45,10 +45,10 @@ const VisionMission = () => {
       {/* Vision & Mission Sections */}
       <section className="py-16 md:py-24 bg-white relative">
         <div className="max-w-[1200px] mx-auto px-4 md:px-6 space-y-16 md:space-y-24 lg:space-y-32">
-          
+
           {/* Vision Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -63,16 +63,16 @@ const VisionMission = () => {
               </p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
               className="relative rounded-[2rem] overflow-hidden shadow-xl h-[300px] md:h-[400px] order-1 lg:order-2"
             >
-              <img 
-                src="/images/white_liquid_vitals.png" 
-                alt="Vision - White Liquid Vitals" 
+              <img
+                src="/images/vission.jpg"
+                alt="Vision - White Liquid Vitals"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
               />
             </motion.div>
@@ -80,21 +80,21 @@ const VisionMission = () => {
 
           {/* Mission Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
               className="relative rounded-[2rem] overflow-hidden shadow-xl h-[300px] md:h-[400px]"
             >
-              <img 
-                src="/images/white_injections.png" 
-                alt="Mission - Clean Injections" 
+              <img
+                src="/images/mission.jpg"
+                alt="Mission - Clean Injections"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
               />
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}

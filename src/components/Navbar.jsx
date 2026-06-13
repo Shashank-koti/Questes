@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, Activity, Globe } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from "../assets/questusLogo.png"
+import Logo from "../assets/navImg.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         {/* Logo area */}
         <Link to="/" className="flex items-baseline cursor-pointer group">
-          <img src={Logo} alt="questes logo" className='h-20 w-20' />
+          <img src={Logo} alt="questes logo" className='h-16 w-25' />
         </Link>
 
         {/* Desktop Navigation */}

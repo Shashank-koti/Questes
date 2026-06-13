@@ -19,7 +19,7 @@ export const heroSlides = [
     desc: "Committed to improving the quality of treatment and quality of life, we focus on where it matters most — Cardiology, ICU and Pain management.",
     btn: "View Portfolio",
     link: "/portfolio",
-    image: "/images/white_liquid_vitals.png",
+    image: "/images/slide2.png",
     // icon: <FlaskConical className="w-5 h-5 text-cyan-400" />
   },
   {
@@ -29,7 +29,7 @@ export const heroSlides = [
     desc: "Quality is paramount because we know what we promise impacts lives. We commit to innovate continuously for a better world, to be the leader in all that we do.",
     btn: "About Us",
     link: "/about/questes-pharma",
-    image: "/images/white_injections.png",
+    image: "/images/slide3.png",
     // icon: <ShieldCheck className="w-5 h-5 text-blue-400" />
   }
 ];

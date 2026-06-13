@@ -57,20 +57,20 @@ const Footer = () => {
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Cardiology Range
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-secondary"></span> ICU Critical Care
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> ICU Critical Care
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Sterile Injectables
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-secondary"></span> Pain Management
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Pain Management
               </li>
             </ul>
           </div>
 
           {/* Contact Details */}
           <div>
-            <h4 className="font-bold text-base mb-4">Contact HQ</h4>
+            <h4 className="font-bold text-base mb-4">Contact Us</h4>
             <ul className="space-y-3 text-sm text-brand-faint/75">
               <li className="flex gap-3">
                 <MapPin className="w-4 h-4 text-brand-primary flex-shrink-0 mt-0.5" />
@@ -79,7 +79,7 @@ const Footer = () => {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-brand-secondary" />
+                <Phone className="w-4 h-4 text-brand-primary" />
                 <span>+91-8121009675</span>
               </li>
               <li className="flex items-center gap-3">
