@@ -53,7 +53,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${forceSolidNav ? 'glass-nav py-3' : 'bg-transparent py-5'
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${forceSolidNav ? 'glass-nav py-3' : 'bg-transparent py-5 border-none shadow-none outline-none ring-0'
         }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
@@ -73,7 +73,7 @@ const Navbar = () => {
             >
               {link.hasDropdown ? (
                 <div
-                  className={`flex items-center text-sm font-semibold transition-colors duration-300 hover:text-brand-primary cursor-pointer ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'
+                  className={`flex items-center text-sm font-semibold transition-colors duration-300 cursor-pointer hover:text-brand-modern ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'
                     }`}
                 >
                   {link.name}
@@ -82,7 +82,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   to={link.to}
-                  className={`flex items-center text-sm font-semibold transition-colors duration-300 hover:text-brand-modern ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'}`}>
+                  className={`flex items-center text-sm font-semibold transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-brand-modern after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'}`}>
                   {link.name}
                 </Link>
               )}
@@ -128,7 +128,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       <div
-        className={`lg:hidden absolute top-full left-0 w-full bg-white shadow-xl border-b border-brand-border transition-all duration-300 overflow-y-auto ${isOpen ? 'max-h-[85vh] py-4' : 'max-h-0 py-0 pointer-events-none'
+        className={`lg:hidden absolute top-full left-0 w-full transition-all duration-300 overflow-y-auto ${isOpen ? 'bg-white max-h-[85vh] py-4 shadow-xl border-b border-brand-border opacity-100 visible' : 'bg-transparent max-h-0 py-0 opacity-0 invisible pointer-events-none border-none shadow-none'
           }`}
       >
         <div className="flex flex-col px-4 gap-2">

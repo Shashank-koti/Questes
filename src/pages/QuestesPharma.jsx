@@ -27,7 +27,7 @@ const QuestesPharma = () => {
       {/* Main Corporate Profile */}
       <section className="py-24 bg-white relative">
         <div className="max-w-[1200px] mx-auto px-4 md:px-6">
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center mb-24">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -38,9 +38,9 @@ const QuestesPharma = () => {
             >
               <div>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block mb-2">Our Corporate Identity</span>
-                <h2 className="text-2xl md:text-3xl font-serif font-black text-brand-dark leading-tight">
+                <h2 className="text-xl md:text-2xl font-serif font-black text-brand-dark leading-tight">
                   Questus Pharma Private Limited<br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">A patient-centric pharmaceutical company.</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">A patient centric pharmaceutical company.</span>
                 </h2>
               </div>
 

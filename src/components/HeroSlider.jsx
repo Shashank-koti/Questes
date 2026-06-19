@@ -18,7 +18,7 @@ const HeroSlider = () => {
 
 
   return (
-    <Box component="section" className="relative w-full h-[95vh] md:h-[100vh] bg-brand-dark overflow-hidden group">
+    <Box component="section" className="relative w-full h-[95vh] md:h-[100vh] bg-brand-dark overflow-hidden group selection:bg-white/20 selection:text-white">
       {/* Persistent Animated Orbs / Particles */}
       <div className="absolute inset-0 z-10 pointer-events-none overflow-hidden">
         <motion.div
@@ -57,7 +57,7 @@ const HeroSlider = () => {
                 alt={heroSlides[current].title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/90 via-brand-dark/40 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/70 to-brand-dark/20"></div>
             </div>
 
             {/* Content */}
@@ -72,8 +72,8 @@ const HeroSlider = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.8 }}
                   >
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-white leading-tight tracking-tight drop-shadow-lg">
-                      {heroSlides[current].title} <span className="text-brand-primary block sm:inline drop-shadow-xl">{heroSlides[current].subtitle}</span>
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-white leading-tight tracking-tight drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
+                      {heroSlides[current].title} <span className="text-[#d42278] block sm:inline drop-shadow-[0_4px_8px_rgba(0,0,0,1)]">{heroSlides[current].subtitle}</span>
                     </h2>
                   </motion.div>
 
