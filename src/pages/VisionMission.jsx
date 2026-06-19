@@ -37,7 +37,7 @@ const VisionMission = () => {
             Vision & <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Mission</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            We commit to innovate continuously for a better world, to be the leader in all that we do.
+            To develop and manufacture high-quality, affordable pharmaceutical products through innovation.
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@ const VisionMission = () => {
                 <Eye className="w-8 h-8 text-brand-primary" /> Our Vision
               </h3>
               <p className="text-brand-muted leading-relaxed text-sm md:text-base font-light">
-                We envision a world where everyone has access to medicines when they need it, and medical care is qualitatively better.
+                To create a world where quality medicines are accessible to everyone, contributing to better healthcare outcomes and improved quality of life.
               </p>
             </motion.div>
 
@@ -105,7 +105,7 @@ const VisionMission = () => {
                 <Target className="w-8 h-8 text-brand-secondary" /> Our Mission
               </h3>
               <p className="text-brand-muted leading-relaxed text-sm md:text-base font-light">
-                We are on a mission to produce quality medicines, at affordable pricing, employing the best in technology to achieve that. We commit to innovate continuously for a better world, to be the leader in all that we do.
+                To develop and manufacture high-quality, affordable pharmaceutical products through innovation, advanced technology, and scientific excellence while maintaining the highest standards of quality and integrity.
               </p>
             </motion.div>
           </div>

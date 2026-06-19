@@ -12,14 +12,47 @@ const contactForm = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!formData.name || !formData.email || !formData.mobile || !formData.country || !formData.message) {
+      return alert("Please fill in all required fields.");
+    }
+    if (!formData.email.includes("@")) {
+      return alert("Please enter a valid email address.");
+    }
+
+    const phoneRegex = /^\d{10}$/;
+    if (!phoneRegex.test(formData.mobile)) {
+      return alert("Please enter exactly 10 digits for the mobile number.");
+    }
+
+    console.log("Form Data", formData);
+
+
     setFormStatus('submitting');
-    setTimeout(() => {
-      setFormStatus('success');
-      setFormData({ name: '', email: '', mobile: '', country: '', message: '' });
-      setTimeout(() => setFormStatus('idle'), 3000);
-    }, 1500);
+
+    try {
+      const formDataObj = new FormData();
+      Object.entries({ ...formData, formType: "contact", secret: "Questus_secure_2026" }).forEach(
+        ([key, value]) => formDataObj.append(key, value)
+      );
+
+      const GOOGLE_SHEET_URL = import.meta.env.VITE_GOOGLE_CONTACT_URL;
+
+      await fetch(GOOGLE_SHEET_URL, {
+        method: "POST",
+        mode: "no-cors",
+        body: formDataObj,
+      });
+
+      alert("Message sent successfully!");
+      setFormData({ name: "", email: "", mobile: "", country: "", message: "" });
+    } catch (error) {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setFormStatus('idle');
+    }
   };
 
   return (

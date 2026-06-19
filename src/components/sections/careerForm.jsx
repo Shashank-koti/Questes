@@ -33,18 +33,17 @@ const careerForm = () => {
     setLoading(true);
 
     try {
-      const sheetPayload = new URLSearchParams();
+      const formDataObj = new FormData();
       Object.entries({ ...formData, secret: "Questus_secure_2026" }).forEach(
-        ([key, value]) => sheetPayload.append(key, value)
+        ([key, value]) => formDataObj.append(key, value)
       );
 
-      await fetch("", {
+      const GOOGLE_SHEET_URL = import.meta.env.VITE_GOOGLE_CAREER_URL;
+
+      await fetch(GOOGLE_SHEET_URL, {
         method: "POST",
         mode: "no-cors",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: sheetPayload.toString(),
+        body: formDataObj,
       });
 
       alert("Application submitted successfully!");

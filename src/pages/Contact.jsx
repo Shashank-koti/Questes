@@ -18,7 +18,7 @@ const Contact = () => {
             Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">With Us</span>
           </h1>
           <p className="text-lg md:text-xl text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Reach out to our global coordination teams for business, formulation supplies, or general questions.
+            Committed to advancing healthcare through science, quality, and innovation.
           </p>
         </div>
       </section>
@@ -35,11 +35,11 @@ const Contact = () => {
             </span>
 
             <h2 className="text-xl sm:text-2xl lg:text-3xl leading-[1.1] font-bold text-brand-dark mb-8 font-serif">
-              Let's Build Something Meaningful Together
+              Have questions about our products, partnerships, or services?
             </h2>
 
             <p className="text-brand-muted leading-relaxed text-[1.05rem] font-light mb-12">
-              Whether you are exploring partnership opportunities, contract manufacturing, product licensing, or simply have a question about our capabilities. we would love to hear from you. Our business development team is ready to discuss how Questes Pharma can support your goals.
+              Fill out the enquiry form and our team will get back to you promptly.
             </p>
 
             <div className="space-y-8">

@@ -37,10 +37,10 @@ const Careers = () => {
             <Sparkles className="w-4 h-4 text-brand-accent" /> Join Our Team
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
-            Work at <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Questes</span>
+            Build Your Future <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">with Questus Pharma</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Shape the future of global healthcare alongside top scientists, developers, and quality control experts.
+            At Questus Pharma, people are our greatest strength. We provide an environment that encourages learning, growth, collaboration, and professional development.
           </p>
         </div>
       </section>
@@ -80,7 +80,7 @@ const Careers = () => {
                 </h2>
               </div>
               <p className="text-brand-muted leading-relaxed font-sans font-light text-sm max-w-lg">
-                At Questes Pharma, we believe in fostering a collaborative, science-driven culture where every professional has the platform to make a true impact on patient lives. Our workspaces are equipped with cutting-edge analytical tools, sterile environments, and development pipelines.
+                As an equal opportunity employer, we value talent, diversity, and innovation. If you are passionate about pharmaceutical sciences and aspire to make a meaningful impact in healthcare, we invite you to join our growing team.
               </p>
 
               <div className="space-y-4 pt-2">

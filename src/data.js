@@ -3,20 +3,20 @@ import { FlaskConical, ShieldCheck, Activity } from 'lucide-react';
 
 export const heroSlides = [
   {
-    id: 2,
-    title: "Formulations that care.",
-    subtitle: "Chemistry for a better world.",
-    desc: "Hyderabad based, at Questus, we are a team of passionate people who are at the forefront of making medicines accessible and affordable for people across 5 continents.",
+    id: 1,
+    title: "Advancing Healthcare Through",
+    subtitle: "Science, Quality & Innovation",
+    desc: "Questus Pharma Private Limited is a Hyderabad-based pharmaceutical company committed to improving patient outcomes through high-quality formulations in Cardiology – Critical Emergencies, Anesthesia, and ICU – Critical Care.",
     btn: "Our Science",
     link: "/science",
     image: "/images/hero_slide_2.png",
     // icon: <Activity className="w-5 h-5 text-brand-primary" />
   },
   {
-    id: 1,
-    title: "Developed in Hyderabad,",
-    subtitle: "accepted world over.",
-    desc: "Committed to improving the quality of treatment and quality of life, we focus on where it matters most — Cardiology, ICU and Pain management.",
+    id: 2,
+    title: "Formulations That Care.",
+    subtitle: "Chemistry for a Better World.",
+    desc: "Driven by scientific excellence and a patient-centric approach, we develop and manufacture medicines that meet global quality standards and support healthcare professionals in delivering critical care when it matters most.",
     btn: "View Portfolio",
     link: "/portfolio",
     image: "/images/slide2.png",
@@ -24,9 +24,9 @@ export const heroSlides = [
   },
   {
     id: 3,
-    title: "Quality, from start",
-    subtitle: "to finish.",
-    desc: "Quality is paramount because we know what we promise impacts lives. We commit to innovate continuously for a better world, to be the leader in all that we do.",
+    title: "Developed in Hyderabad.",
+    subtitle: "Trusted Worldwide.",
+    desc: "Driven by scientific excellence and a patient-centric approach, we develop and manufacture medicines that meet global quality standards and support healthcare professionals in delivering critical care when it matters most.",
     btn: "About Us",
     link: "/about/questes-pharma",
     image: "/images/slide3.png",

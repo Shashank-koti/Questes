@@ -40,7 +40,7 @@ const Portfolio = () => {
             transition={{ delay: 0.1 }}
             className="text-lg text-brand-muted max-w-2xl mx-auto leading-relaxed"
           >
-            Discover our breakthrough treatments and therapeutic solutions designed to improve patient outcomes and redefine healthcare standards across the globe.
+            Questus Pharma specializes in pharmaceutical formulations across critical healthcare segments.
           </motion.p>
         </div>
 
@@ -60,9 +60,9 @@ const Portfolio = () => {
                 <HeartPulse size={24} strokeWidth={1.5} />
               </div>
             </div>
-            <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">Cardiology - Critical Emergencies</h3>
+            <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">Cardiology – Critical Emergencies</h3>
             <p className="text-brand-muted mb-8 line-clamp-3 leading-relaxed flex-grow">
-              Advanced life-saving therapeutics targeting critical cardiac events, ensuring rapid response and improved survival rates.
+              Supporting healthcare professionals with reliable formulations designed for critical cardiovascular care and emergency interventions.
             </p>
             <button className="flex items-center text-brand-modern font-semibold group-hover:text-brand-accent transition-colors duration-300 mt-auto">
               Explore Treatments <ArrowRight size={20} className="ml-2 group-hover:translate-x-1.5 transition-transform duration-300" />
@@ -84,7 +84,7 @@ const Portfolio = () => {
             </div>
             <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">Anesthesia</h3>
             <p className="text-brand-muted mb-8 line-clamp-3 leading-relaxed flex-grow">
-              State-of-the-art anesthetic formulations designed for precision, safety, and optimal patient comfort during surgical procedures.
+              Delivering quality anesthetic solutions that support surgical procedures and patient care across healthcare settings.
             </p>
             <button className="flex items-center text-brand-modern font-semibold group-hover:text-brand-accent transition-colors duration-300 mt-auto">
               Explore Treatments <ArrowRight size={20} className="ml-2 group-hover:translate-x-1.5 transition-transform duration-300" />
@@ -104,9 +104,9 @@ const Portfolio = () => {
                 <Activity size={24} strokeWidth={1.5} />
               </div>
             </div>
-            <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">ICU - Critical Care</h3>
+            <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">ICU – Critical Care</h3>
             <p className="text-brand-muted mb-8 line-clamp-3 leading-relaxed flex-grow">
-              Comprehensive intensive care solutions and vital therapies to support the most vulnerable patients in critical conditions.
+              Providing specialized formulations developed to meet the demanding requirements of intensive care and emergency medicine.
             </p>
             <button className="flex items-center text-brand-modern font-semibold group-hover:text-brand-accent transition-colors duration-300 mt-auto">
               Explore Treatments <ArrowRight size={20} className="ml-2 group-hover:translate-x-1.5 transition-transform duration-300" />

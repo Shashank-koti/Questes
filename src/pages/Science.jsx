@@ -35,7 +35,7 @@ const Science = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">SCIENCE IS</span> OUR QUEST
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Steeped in Pharma sciences with a collective experience that brings together pharmaceutical chemistry, biotechnology, research & development and expertise in filing.
+            Science drives everything we do at Questus Pharma.
           </p>
         </div>
       </section>
@@ -55,11 +55,11 @@ const Science = () => {
               <div className="space-y-3">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scientific Innovation</span>
                 <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                  At Questus, we are research driven and <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">passionate about what we do.</span>
+                  Science drives everything we do <br />
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">at Questus Pharma.</span>
                 </h2>
                 <p className="text-brand-muted leading-relaxed font-sans font-light text-base max-w-lg">
-                  We are ideally poised to offer indigenously developed medicines for use world over. Our science today helps better the quality of treatment and save lives. To deliver on our promise, we equip ourselves with everything necessary — the expertise, the talent and the infrastructure to make medicines affordable.
+                  Through continuous research and innovation, we strive to deliver safe, effective, and affordable pharmaceutical solutions for healthcare providers worldwide.
                 </p>
               </div>
 
@@ -69,8 +69,8 @@ const Science = () => {
                     <Microscope className="w-5 h-5 text-brand-primary" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-brand-dark mb-1">State of the art Research & Development Centre</h4>
-                    <p className="text-brand-muted leading-relaxed text-sm">Some of the best talent in the pharmaceutical segment today do path breaking work from our state-of-the-art Research & Development Centre, in Hyderabad.</p>
+                    <h4 className="text-lg font-bold text-brand-dark mb-1">Expertise across disciplines</h4>
+                    <p className="text-brand-muted leading-relaxed text-sm">Our team brings together expertise in pharmaceutical chemistry, formulation development, biotechnology, regulatory affairs, and manufacturing sciences to develop medicines that improve patient care.</p>
                   </div>
                 </div>
 
@@ -79,8 +79,8 @@ const Science = () => {
                     <TestTube2 className="w-5 h-5 text-brand-secondary" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-brand-dark mb-1">Stringent Batch Protocols</h4>
-                    <p className="text-brand-muted leading-relaxed text-sm">Multi-stage testing ensuring absolute purity, sterility, and consistency before any product deployment.</p>
+                    <h4 className="text-lg font-bold text-brand-dark mb-1">Continuous Research & Innovation</h4>
+                    <p className="text-brand-muted leading-relaxed text-sm">We strive to deliver safe, effective, and affordable pharmaceutical solutions for healthcare providers worldwide.</p>
                   </div>
                 </div>
               </div>

@@ -35,7 +35,7 @@ const Infrastructure = () => {
             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Infrastructure</span>
           </h1>
           <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Manufacturing wide range of quality products that improves lives.
+            Questus Pharma has invested in world-class infrastructure designed to meet global pharmaceutical manufacturing standards.
           </p>
         </div>
       </section>
@@ -72,13 +72,13 @@ const Infrastructure = () => {
             >
               <span className="text-brand-secondary font-bold tracking-wider uppercase text-xs block">Advanced Research</span>
               <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                State of the art center of excellence
+                Built for Pharmaceutical Excellence
               </h2>
               <p className="text-brand-muted leading-relaxed text-base font-light">
-                We have invested to establish the state-of-the-art manufacturing facilities meeting global pharma standards. spreading over 12,000 sq.ft.
+                Our facilities are designed to meet the expectations of leading international regulatory agencies and global markets.
               </p>
               <ul className="space-y-3 pt-3 border-t border-brand-border/60">
-                {['Advanced Formulation Suites', 'HPLC & Gas Chromatography', 'Stability Testing Chambers', 'ISO 9001:2015 Operations'].map((item, idx) => (
+                {['Integrated R&D and Manufacturing Centre', '6-Acre Manufacturing Campus', '12,000 Sq. Ft. Center of Excellence', 'Advanced Quality Control Laboratories'].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-2 text-brand-dark text-sm font-semibold">
                     <CheckCircle2 className="w-5 h-5 text-brand-secondary flex-shrink-0" />
                     {item}
@@ -99,13 +99,13 @@ const Infrastructure = () => {
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scale & Precision</span>
               <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                Integrated R&D and Manufacturing centre
+                Facility Highlights
               </h2>
               <p className="text-brand-muted leading-relaxed text-base font-light">
-                It is spread over an area of 6 acres and will be engaged in production of Oncology and Critical Care molecules. The manufacturing facilities are approvable by major global regulatory agencies including the USFDA, MHRA, EMA, TGA, MCC, ANVISA and more.
+                Modern Manufacturing Technologies and Scalable Production Capabilities ensure we meet global pharmaceutical manufacturing standards.
               </p>
               <ul className="space-y-3 pt-3 border-t border-brand-border/60">
-                {['Class 100 Cleanrooms', 'Automated Filling Lines', 'Zero Liquid Discharge (ZLD)', 'cGMP Compliant Zones'].map((item, idx) => (
+                {['Modern Manufacturing Technologies', 'Scalable Production Capabilities', 'World-Class Infrastructure', 'Global Pharmaceutical Standards'].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-2 text-brand-dark text-sm font-semibold">
                     <CheckCircle2 className="w-5 h-5 text-brand-primary flex-shrink-0" />
                     {item}

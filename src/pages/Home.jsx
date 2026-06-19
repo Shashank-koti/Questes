@@ -8,20 +8,20 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   const offerCards = [
     {
-      title: "Drug Discovery",
-      desc: "AI-assisted molecular screening and target identification for next-generation therapeutics.",
+      title: "Cardiology – Critical Emergencies",
+      desc: "Pharmaceutical formulations designed to support the management of critical cardiovascular conditions.",
       image: "/images/drug_discovery.png",
-      link: "/science"
+      link: "/portfolio"
     },
     {
-      title: "Clinical Research",
-      desc: "Rigorous Phase I–IV trials with global patient networks and regulatory expertise.",
+      title: "Anesthesia",
+      desc: "Quality anesthetic formulations developed for surgical and emergency care settings.",
       image: "/images/clinical_research.png",
-      link: "/science"
+      link: "/portfolio"
     },
     {
-      title: "Quality Assurance",
-      desc: "ISO 9001 & GMP certified manufacturing with real-time batch monitoring systems.",
+      title: "ICU – Critical Care",
+      desc: "Specialized medicines that support intensive care units and emergency healthcare environments.",
       image: "/images/quality_assurance.png",
       link: "/portfolio"
     }
@@ -85,8 +85,8 @@ const Home = () => {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-2xl sm:text-3xl lg:text-3xl font-serif font-black text-brand-dark leading-[1.1] tracking-tight"
               >
-                Developed in Hyderabad, <br />
-                <span className="text-brand-primary">accepted world over.</span>
+                Excellence Through <br />
+                <span className="text-brand-primary">Expertise</span>
               </motion.h2>
 
               <motion.p
@@ -96,7 +96,7 @@ const Home = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-lg text-brand-muted font-sans font-light leading-relaxed"
               >
-                Hyderabad based, at Questus, we are a team of passionate people who are at the forefront of making medicines accessible and affordable for people across 5 continents. We go the extra mile to develop medicines that have an impact world over.
+                At Questus Pharma, we combine infrastructure, scientific expertise, and passion to develop pharmaceutical solutions that improve lives. Our integrated Research & Development and Manufacturing Centre spans over 6 acres, supported by a 12,000 sq. ft. Center of Excellence, enabling us to deliver quality medicines for global healthcare markets.
               </motion.p>
 
               <motion.div
@@ -127,13 +127,13 @@ const Home = () => {
           <div className="flex flex-col md:flex-row md:items-end justify-center gap-8 mb-16 md:mb-24">
             <div className="max-w-3xl space-y-4 text-center">
               <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
-                WHAT WE OFFER
+                WHY QUESTUS PHARMA?
               </span>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark leading-tight tracking-tight uppercase">
-                Cardiology - Critical Care Medications - Anesthesia
+                Specialized Focus on Critical Care Segments
               </h2>
               <p className="text-lg text-brand-muted font-sans font-light leading-relaxed mt-4">
-                Quality injectables and OSD critical care medications, anti-infectives, anesthetics, analgesic medicaments. Our products are manufactured to meet various standards. We currently are capable of manufacturing products and meeting prescribed standards of the EU, Brazil, Australia, Russia, India, Ethiopia, Kenya, Philippines and Cambodia.
+                State-of-the-Art R&D and Manufacturing Facilities • Experienced Pharmaceutical Leadership • Global Quality Standards • Commitment to Innovation and Patient Care
               </p>
             </div>
 
