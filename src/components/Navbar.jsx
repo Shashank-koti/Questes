@@ -109,9 +109,9 @@ const Navbar = () => {
             </div>
           ))}
 
-          <Link to="/contact" className="bg-brand-primary hover:bg-brand-secondary text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-[0_4px_14px_rgba(6,76,157,0.35)] hover:shadow-[0_6px_20px_rgba(6,76,157,0.5)] transition-all duration-300 transform hover:-translate-y-0.5">
-            Partner With Us
-          </Link>
+          <a href="https://wa.me/919581118081" className="bg-brand-primary hover:bg-brand-secondary text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-[0_4px_14px_rgba(6,76,157,0.35)] hover:shadow-[0_6px_20px_rgba(6,76,157,0.5)] transition-all duration-300 transform hover:-translate-y-0.5" target="_blank">
+            Chat With Us
+          </a>
         </nav>
 
         {/* Mobile menu button */}

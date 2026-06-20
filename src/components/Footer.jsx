@@ -10,12 +10,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {/* Brand Info */}
-          <div className="space-y-4">
-            <Link to="/" className="flex items-baseline group">
-              <span className="font-serif font-black text-2xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft transition-transform duration-300 group-hover:scale-105">Q</span>
-              <span className="font-serif font-bold text-xl tracking-tight text-white">uestus</span>
-              <span className="ml-1 w-1.5 h-1.5 rounded-full bg-brand-primary animate-pulse"></span>
-            </Link>
+          <div>
+            <img src="/src/assets/navImg.png" alt="questes logo" className='h-14 w-28' />
             <p className="text-brand-faint/70 text-sm leading-relaxed max-w-xs">
               A premier global pharmaceutical manufacturer delivering patient-centric formulations across Cardiology, ICU, and Pain Management.
             </p>
