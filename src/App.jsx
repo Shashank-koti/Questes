@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';
-import QuestesPharma from './pages/QuestesPharma';
+import QuestusPharma from './pages/QuestusPharma';
 import VisionMission from './pages/VisionMission';
 import Careers from './pages/Careers';
 import Contact from './pages/Contact';
@@ -32,7 +32,7 @@ function App() {
             <Route path="/" element={<Home />} />
 
             {/* Sub-Pages */}
-            <Route path="/about/questes-pharma" element={<PageWrapper><QuestesPharma /></PageWrapper>} />
+            <Route path="/about/questus-pharma" element={<PageWrapper><QuestusPharma /></PageWrapper>} />
             <Route path="/about/vision-mission" element={<PageWrapper><VisionMission /></PageWrapper>} />
             <Route path="/portfolio" element={<PageWrapper><Portfolio /></PageWrapper>} />
             <Route path="/science" element={<PageWrapper><Science /></PageWrapper>} />

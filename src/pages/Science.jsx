@@ -96,7 +96,7 @@ const Science = () => {
               <div className="absolute inset-0 bg-brand-dark/10 mix-blend-multiply z-10"></div>
               <img
                 src="/images/page_science.png"
-                alt="Questes Science Lab"
+                alt="Questus Science Lab"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
               />
               {/* Premium Floating Card */}

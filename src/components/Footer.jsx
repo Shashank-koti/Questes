@@ -11,7 +11,7 @@ const Footer = () => {
 
           {/* Brand Info */}
           <div>
-            <img src="/src/assets/navImg.png" alt="questes logo" className='h-14 w-28' />
+            <img src="/src/assets/navImg.png" alt="questus logo" className='h-14 w-28' />
             <p className="text-brand-faint/70 text-sm leading-relaxed max-w-xs">
               A premier global pharmaceutical manufacturer delivering patient-centric formulations across Cardiology, ICU, and Pain Management.
             </p>
@@ -71,12 +71,12 @@ const Footer = () => {
               <li className="flex gap-3">
                 <MapPin className="w-4 h-4 text-brand-primary flex-shrink-0 mt-0.5" />
                 <span>
-                  Sirisuns Hirise Building, First & Second Floor, Plot No.13, Sy. No. 70, Image Garden Road, Silicon Valley, Madhapur, Hyderabad-500081
+                  3rd Floor, Niharika Enclave, HIG-71, Phase-V, KPHB Colony, Kukatpally, Hyderabad, Telangana – 500 085, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-brand-primary" />
-                <span>+91-8121009675</span>
+                <span>+91-9581118081</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-brand-primary" />
@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-white/5 text-center text-xs text-brand-muted flex flex-col sm:flex-row justify-center items-center gap-4">
-          <p>&copy; {new Date().getFullYear()} Questes Pharma Pvt. Ltd | All rights reserved | Powered by <a href="https://arccreativemedia.com/" target="_blank" rel="noopener noreferrer">Arc Creative Media</a></p>
+          <p>&copy; {new Date().getFullYear()} Questus Pharma Pvt. Ltd | All rights reserved | Powered by <a href="https://arccreativemedia.com/" target="_blank" rel="noopener noreferrer">Arc Creative Media</a></p>
         </div>
       </div>
     </footer>

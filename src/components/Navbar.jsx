@@ -30,7 +30,7 @@ const Navbar = () => {
       name: 'About Us',
       hasDropdown: true,
       items: [
-        { name: 'Questes Pharma', to: '/about/questes-pharma', icon: <Activity className="w-4 h-4 mr-2 text-brand-primary" /> },
+        { name: 'Questus Pharma', to: '/about/questus-pharma', icon: <Activity className="w-4 h-4 mr-2 text-brand-primary" /> },
         { name: 'Vision and Mission', to: '/about/vision-mission', icon: <Globe className="w-4 h-4 mr-2 text-brand-secondary" /> }
       ]
     },
@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         {/* Logo area */}
         <Link to="/" className="flex items-baseline cursor-pointer group">
-          <img src={Logo} alt="questes logo" className='h-16 w-25' />
+          <img src={Logo} alt="questus logo" className='h-16 w-25' />
         </Link>
 
         {/* Desktop Navigation */}

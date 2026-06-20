@@ -59,7 +59,7 @@ const Careers = () => {
             >
               <img 
                 src="/images/page_careers.png" 
-                alt="Questes Scientists" 
+                alt="Questus Scientists" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
               <div className="absolute inset-0 bg-brand-primary/10 mix-blend-multiply"></div>

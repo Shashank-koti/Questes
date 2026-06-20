@@ -28,7 +28,7 @@ export const heroSlides = [
     subtitle: "Trusted Worldwide.",
     desc: "Delivering critical care solutions globally through scientific excellence and a patient-centric approach.",
     btn: "About Us",
-    link: "/about/questes-pharma",
+    link: "/about/questus-pharma",
     image: "/images/slide3.png",
     // icon: <ShieldCheck className="w-5 h-5 text-blue-400" />
   }

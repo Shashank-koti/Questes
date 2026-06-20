@@ -119,7 +119,7 @@ const VisionMission = () => {
                 Empowering the Future of <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Healthcare</span>
               </h3>
               <p className="text-brand-muted leading-relaxed text-sm md:text-base font-light">
-                At Questes Pharma, our Vision and Mission are not just statements on a wall—they are the guiding principles embedded in every formulation we create. We stand committed to breaking barriers in medical accessibility and forging a brighter, healthier future for communities everywhere.
+                At Questus Pharma, our Vision and Mission are not just statements on a wall—they are the guiding principles embedded in every formulation we create. We stand committed to breaking barriers in medical accessibility and forging a brighter, healthier future for communities everywhere.
               </p>
               <div className="flex justify-center gap-6 pt-4">
                 <div className="flex items-center gap-2 text-brand-dark font-bold text-xs uppercase tracking-wider">

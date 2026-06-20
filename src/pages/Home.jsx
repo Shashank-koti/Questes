@@ -107,7 +107,7 @@ const Home = () => {
                 className="pt-4"
               >
                 <Link
-                  to="/about/questes-pharma"
+                  to="/about/questus-pharma"
                   className="group inline-flex items-center justify-center gap-3 bg-brand-dark hover:bg-gradient-to-r hover:from-brand-accent hover:to-brand-soft text-white font-semibold px-8 py-4 rounded-full transition-all duration-500 ease-out shadow-lg"
                 >
                   Discover Our Story
@@ -186,7 +186,7 @@ const Home = () => {
               <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
                 At a Glance
               </span>
-              <h3 className="text-3xl md:text-4xl font-serif font-black text-brand-dark">Questes Global Footprint</h3>
+              <h3 className="text-3xl md:text-4xl font-serif font-black text-brand-dark">Questus Global Footprint</h3>
             </div>
             <DisplayData />
           </div>
