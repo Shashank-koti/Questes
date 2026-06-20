@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Award, Globe, Heart, Shield } from 'lucide-react';
+import logo from "../assets/navImg.png"
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
 
           {/* Brand Info */}
           <div>
-            <img src="/src/assets/navImg.png" alt="questus logo" className='h-14 w-28' />
+            <img src={logo} alt="questus logo" className='h-14 w-28' />
             <p className="text-brand-faint/70 text-sm leading-relaxed max-w-xs">
               A premier global pharmaceutical manufacturer delivering patient-centric formulations across Cardiology, ICU, and Pain Management.
             </p>
