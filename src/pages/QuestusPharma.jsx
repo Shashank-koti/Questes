@@ -1,9 +1,38 @@
 import React from 'react';
 import { Award, ShieldCheck, Heart, Sparkles, Star, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
-import DisplayData from '../components/sections/displayData';
+import img1 from "../assets/img1.jpeg";
+import img2 from "../assets/img2.jpeg";
+import img3 from "../assets/img3.jpeg";
+import img4 from "../assets/img4.jpeg";
+import img5 from "../assets/img5.jpeg";
+import img6 from "../assets/img6.jpeg";
+import img7 from "../assets/img7.jpeg";
+import img8 from "../assets/img8.jpeg";
+import img9 from "../assets/img9.jpeg";
+import img10 from "../assets/img10.jpeg";
+import img11 from "../assets/img11.jpeg";
+
 
 const QuestusPharma = () => {
+
+  const directors = [
+    { img: img1, name: "Ms. Pameela Paruchuri", role: "Director (Legal & Company Secretary)" },
+    { img: img2, name: "Name", role: "Role" },
+    { img: img4, name: "Mr. Debasish Rudra", role: "DSM" },
+    { img: img7, name: "Mr. Shiv Rajendra Agrahari", role: "DSM" },
+    { img: img10, name: "Agrawal Bhuvanbhai Ramchandra", role: "DSM" },
+    { img: img11, name: "Akhilesh Kumar Vishwakarma", role: "DSM" }
+  ];
+
+  const salesTeam = [
+    { img: img3, name: "Mr. Asheesh Bhatnagar", role: "Director (Sales & Marketing)" },
+    { img: img5, name: "Mr. Naik Pravin Purushottam", role: "General Manager (Sales)" },
+    { img: img6, name: "Mr. Pawan Arora", role: "Sales Manager" },
+    { img: img8, name: "Mr. M. Raghurama Chary", role: "Sales Manager" },
+    { img: img9, name: "Mr. Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" }
+  ]
+
   return (
     <div className="bg-brand-light min-h-screen">
       {/* Page Header */}
@@ -100,71 +129,93 @@ const QuestusPharma = () => {
             </div>
           </div>
 
-          {/* Board of Directors Section */}
-          <div className="mt-32 md:mt-40 mb-24 md:mb-32">
-            <div className="text-center mb-16 space-y-4">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Leadership</span>
-              <h3 className="text-3xl md:text-4xl font-serif font-black text-brand-dark">The Questus Board of Directors</h3>
-              <p className="text-brand-muted max-w-2xl mx-auto font-light leading-relaxed">
-                Guided by seasoned experts, our leadership team is dedicated to steering Questus Pharma towards new horizons in global healthcare.
-              </p>
+          {/* Leadership & Sales Sections */}
+          <div className="mt-32 md:mt-40 mb-24 md:mb-32 max-w-[1400px] mx-auto px-4 md:px-8">
+
+            {/* Board of Directors */}
+            <div className="mb-32">
+              <div className="text-center mb-16 space-y-4">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-widest uppercase text-sm block">Governance</span>
+                <h3 className="text-4xl md:text-5xl font-serif font-black text-brand-dark tracking-tight">Board of Directors</h3>
+                <p className="text-brand-muted max-w-2xl mx-auto font-light leading-relaxed mt-4">
+                  Guided by seasoned experts, our leadership team is dedicated to steering Questus Pharma towards new horizons in global healthcare.
+                </p>
+                <div className="w-20 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary mx-auto rounded-full mt-6"></div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                {directors.map((director, idx) => (
+                  <motion.div
+                    key={idx}
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
+                    className="h-full"
+                  >
+                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 group border border-slate-100/60 flex flex-col h-full hover:-translate-y-2 overflow-hidden">
+                      <div className="relative h-[280px] md:h-[300px] lg:h-[320px] bg-brand-light w-full shrink-0">
+                        <img
+                          src={director.img}
+                          alt={director.role}
+                          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-in-out"
+                        />
+                      </div>
+
+                      <div className="flex-grow flex flex-col items-center justify-start text-center px-4 pt-3 pb-5">
+                        <h4 className="text-base md:text-lg font-serif font-black text-brand-dark mb-0.5 leading-snug group-hover:text-brand-primary transition-colors">{director.name}</h4>
+                        <p className="text-brand-secondary font-bold text-[10px] md:text-[11px] tracking-wide uppercase">{director.role}</p>
+
+                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-3 transform origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></div>
+                      </div>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 max-w-5xl mx-auto">
-
-              {/* Director 1 */}
-              <motion.div
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8 }}
-                className="group flex flex-col items-center text-center"
-              >
-                <div className="relative rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-[0_20px_50px_rgba(14,22,36,0.15)] transition-all duration-500 w-full max-w-[320px] aspect-[4/5] mb-8">
-                  <div className="absolute inset-0 bg-brand-primary/10 group-hover:bg-transparent transition-colors duration-500 z-10 mix-blend-overlay"></div>
-                  <img
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop"
-                    alt="Managing Director"
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out"
-                  />
-                  {/* Glassmorphic Name Plate */}
-                  <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-xl p-4 rounded-3xl shadow-lg border border-white/50 transform translate-y-2 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 z-20">
-                    <h4 className="text-xl font-serif font-black text-brand-dark">Name</h4>
-                    <p className="text-brand-primary font-bold text-[10px] uppercase tracking-widest mt-1">Managing Director</p>
-                  </div>
-                </div>
-                <p className="text-brand-muted text-sm leading-relaxed px-4 font-light">
-                  With over 25 years of pharmaceutical expertise, Name drives our strategic vision, focusing on global expansion and continuous operational excellence.
+            {/* Sales & Marketing Leadership */}
+            <div>
+              <div className="text-center mb-16 space-y-4">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-widest uppercase text-sm block">Market Strategy</span>
+                <h3 className="text-4xl md:text-5xl font-serif font-black text-brand-dark tracking-tight">Sales & Marketing Leadership</h3>
+                <p className="text-brand-muted max-w-2xl mx-auto font-light leading-relaxed mt-4">
+                  Our robust sales and marketing framework drives product penetration, expanding our reach and ensuring access to essential medicines.
                 </p>
-              </motion.div>
+                <div className="w-20 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary mx-auto rounded-full mt-6"></div>
+              </div>
 
-              {/* Director 2 */}
-              <motion.div
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                className="group flex flex-col items-center text-center"
-              >
-                <div className="relative rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-[0_20px_50px_rgba(14,22,36,0.15)] transition-all duration-500 w-full max-w-[320px] aspect-[4/5] mb-8">
-                  <div className="absolute inset-0 bg-brand-secondary/10 group-hover:bg-transparent transition-colors duration-500 z-10 mix-blend-overlay"></div>
-                  <img
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
-                    alt="Executive Director"
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out"
-                  />
-                  {/* Glassmorphic Name Plate */}
-                  <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-xl p-4 rounded-3xl shadow-lg border border-white/50 transform translate-y-2 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 z-20">
-                    <h4 className="text-xl font-serif font-black text-brand-dark">Pameela Paruchuri</h4>
-                    <p className="text-brand-secondary font-bold text-[10px] uppercase tracking-widest mt-1">Executive Director</p>
-                  </div>
-                </div>
-                <p className="text-brand-muted text-sm leading-relaxed px-4 font-light">
-                  Pameela Paruchuri ensures our therapeutic formulations adhere to the highest international quality standards, leading our clinical and regulatory affairs.
-                </p>
-              </motion.div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 justify-center">
+                {salesTeam.map((member, idx) => (
+                  <motion.div
+                    key={idx}
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
+                    className="h-full"
+                  >
+                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 group border border-slate-100/60 flex flex-col h-full hover:-translate-y-2 overflow-hidden">
+                      <div className="relative h-[280px] md:h-[300px] lg:h-[320px] bg-brand-light w-full shrink-0">
+                        <img
+                          src={member.img}
+                          alt={member.role}
+                          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-in-out grayscale-[15%] group-hover:grayscale-0"
+                        />
+                      </div>
 
+                      <div className="flex-grow flex flex-col items-center justify-start text-center px-4 pt-3 pb-5">
+                        <h4 className="text-base md:text-lg font-serif font-black text-brand-dark mb-0.5 leading-snug group-hover:text-brand-secondary transition-colors">{member.name}</h4>
+                        <p className="text-brand-primary font-bold text-[10px] md:text-[11px] tracking-wide uppercase">{member.role}</p>
+
+                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-3 transform origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></div>
+                      </div>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
             </div>
+
           </div>
 
           {/* Our Enduring Commitment (New Premium Text Section) */}

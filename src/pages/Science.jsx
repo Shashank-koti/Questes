@@ -34,7 +34,7 @@ const Science = () => {
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight uppercase">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">SCIENCE IS</span> OUR QUEST
           </h1>
-          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
+          <p className="text-lg text-brand-faint/80 max-w- mx-auto font-light leading-relaxed">
             Science drives everything we do at Questus Pharma.
           </p>
         </div>
@@ -55,8 +55,7 @@ const Science = () => {
               <div className="space-y-3">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scientific Innovation</span>
                 <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
-                  Science drives everything we do <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">at Questus Pharma.</span>
+                  Science drives everything we do <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">at Questus Pharma.</span>
                 </h2>
                 <p className="text-brand-muted leading-relaxed font-sans font-light text-base max-w-lg">
                   Through continuous research and innovation, we strive to deliver safe, effective, and affordable pharmaceutical solutions for healthcare providers worldwide.
