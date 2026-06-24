@@ -17,12 +17,8 @@ import img11 from "../assets/img11.jpeg";
 const QuestusPharma = () => {
 
   const directors = [
-    { img: img1, name: "Ms. Pameela Paruchuri", role: "Director (Legal & Company Secretary)" },
-    { img: img2, name: "Aswin", role: "" },
-    { img: img4, name: "Mr. Debasish Rudra", role: "DSM" },
-    { img: img7, name: "Mr. Shiv Rajendra Agrahari", role: "DSM" },
-    { img: img10, name: "Agrawal Bhuvanbhai Ramchandra", role: "DSM" },
-    { img: img11, name: "Akhilesh Kumar Vishwakarma", role: "DSM" }
+    { img: img11, name: "Akhilesh Kumar Vishwakarma", role: "Director" },
+    { img: img1, name: "Ms. Pameela Paruchuri", role: "Director (Legal & Company Secretary)" }
   ];
 
   const salesTeam = [
@@ -30,7 +26,10 @@ const QuestusPharma = () => {
     { img: img5, name: "Mr. Naik Pravin Purushottam", role: "General Manager (Sales)" },
     { img: img6, name: "Mr. Pawan Arora", role: "Sales Manager" },
     { img: img8, name: "Mr. M. Raghurama Chary", role: "Sales Manager" },
-    { img: img9, name: "Mr. Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" }
+    { img: img9, name: "Mr. Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" },
+    { img: img4, name: "Mr. Debasish Rudra", role: "Deputy Sales Manager" },
+    { img: img7, name: "Mr. Shiv Rajendra Agrahari", role: "Deputy Sales Manager" },
+    { img: img10, name: "Agrawal Bhuvanbhai Ramchandra", role: "Deputy Sales Manager" }
   ]
 
   return (
@@ -140,10 +139,9 @@ const QuestusPharma = () => {
                 <p className="text-brand-muted max-w-2xl mx-auto font-light leading-relaxed mt-4">
                   Guided by seasoned experts, our leadership team is dedicated to steering Questus Pharma towards new horizons in global healthcare.
                 </p>
-                <div className="w-20 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary mx-auto rounded-full mt-6"></div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+              <div className="flex flex-wrap justify-between">
                 {directors.map((director, idx) => (
                   <motion.div
                     key={idx}
