@@ -18,7 +18,7 @@ const QuestusPharma = () => {
 
   const directors = [
     { img: img1, name: "Ms. Pameela Paruchuri", role: "Director (Legal & Company Secretary)" },
-    { img: img2, name: "Name", role: "Role" },
+    { img: img2, name: "Aswin", role: "" },
     { img: img4, name: "Mr. Debasish Rudra", role: "DSM" },
     { img: img7, name: "Mr. Shiv Rajendra Agrahari", role: "DSM" },
     { img: img10, name: "Agrawal Bhuvanbhai Ramchandra", role: "DSM" },
