@@ -17,19 +17,19 @@ import img11 from "../assets/img11.jpeg";
 const QuestusPharma = () => {
 
   const directors = [
-    { img: img11, name: "Akhilesh Kumar Vishwakarma", role: "Director" },
-    { img: img1, name: "Ms. Pameela Paruchuri", role: "Director (Legal & Company Secretary)" }
+    { img: img3, name: "Mr. Asheesh Bhatnagar", role: "Director" },
+    { img: img1, name: "Mrs. Pameela Paruchuri", role: "Director (Legal & Company Secretary)" }
   ];
 
   const salesTeam = [
-    { img: img3, name: "Mr. Asheesh Bhatnagar", role: "Director (Sales & Marketing)" },
     { img: img5, name: "Mr. Naik Pravin Purushottam", role: "General Manager (Sales)" },
     { img: img6, name: "Mr. Pawan Arora", role: "Sales Manager" },
     { img: img8, name: "Mr. M. Raghurama Chary", role: "Sales Manager" },
     { img: img9, name: "Mr. Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" },
     { img: img4, name: "Mr. Debasish Rudra", role: "Deputy Sales Manager" },
     { img: img7, name: "Mr. Shiv Rajendra Agrahari", role: "Deputy Sales Manager" },
-    { img: img10, name: "Agrawal Bhuvanbhai Ramchandra", role: "Deputy Sales Manager" }
+    { img: img10, name: "Mr. Agrawal Bhuvanbhai Ramchandra", role: "Deputy Sales Manager" },
+    { img: img11, name: "Mr. Akhilesh Kumar Vishwakarma", role: "Deputy Sales Manager" }
   ]
 
   return (
@@ -141,7 +141,7 @@ const QuestusPharma = () => {
                 </p>
               </div>
 
-              <div className="flex flex-wrap justify-between">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10 justify-center max-w-3xl mx-auto">
                 {directors.map((director, idx) => (
                   <motion.div
                     key={idx}
@@ -151,7 +151,7 @@ const QuestusPharma = () => {
                     transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
                     className="h-full"
                   >
-                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 group border border-slate-100/60 flex flex-col h-full hover:-translate-y-2 overflow-hidden">
+                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 group border border-slate-100/60 flex flex-col h-full hover:-translate-y-2 overflow-hidden max-w-[320px] mx-auto w-full">
                       <div className="relative h-[280px] md:h-[300px] lg:h-[320px] bg-brand-light w-full shrink-0">
                         <img
                           src={director.img}
