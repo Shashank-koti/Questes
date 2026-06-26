@@ -6,11 +6,11 @@ import img2 from "../assets/img2.jpeg";
 import img3 from "../assets/img3.jpeg";
 import img4 from "../assets/img4.jpeg";
 import img5 from "../assets/img5.jpeg";
-import img6 from "../assets/img6.jpeg";
-import img7 from "../assets/img7.jpeg";
-import img8 from "../assets/img8.jpeg";
-import img9 from "../assets/img9.jpeg";
-import img10 from "../assets/img10.jpeg";
+import img6 from "../assets/img6.png";
+import img7 from "../assets/img7.png";
+import img8 from "../assets/img8.png";
+import img9 from "../assets/img9.png";
+import img10 from "../assets/img10.png";
 import img11 from "../assets/img11.jpeg";
 
 
@@ -156,7 +156,7 @@ const QuestusPharma = () => {
                         <img
                           src={director.img}
                           alt={director.role}
-                          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-in-out"
+                          className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-1000 ease-in-out"
                         />
                       </div>
 
@@ -198,7 +198,7 @@ const QuestusPharma = () => {
                         <img
                           src={member.img}
                           alt={member.role}
-                          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000 ease-in-out grayscale-[15%] group-hover:grayscale-0"
+                          className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-1000 ease-in-out grayscale-[15%] group-hover:grayscale-0"
                         />
                       </div>
 
