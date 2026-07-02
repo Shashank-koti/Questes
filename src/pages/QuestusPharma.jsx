@@ -1,7 +1,7 @@
 import React from 'react';
 import { Award, ShieldCheck, Heart, Sparkles, Star, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
-import img1 from "../assets/img1.jpeg";
+import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.jpeg";
 import img3 from "../assets/img3.jpeg";
 import img4 from "../assets/img4.jpeg";
@@ -104,12 +104,12 @@ const QuestusPharma = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative rounded-[2rem] overflow-hidden shadow-xl h-[300px] md:h-[350px] group max-w-lg mx-auto lg:max-w-none w-full"
+              className="relative rounded-[2rem] overflow-hidden shadow-xl h-[300px] md:h-[350px] max-w-lg mx-auto lg:max-w-none w-full"
             >
               <img
                 src="/images/page_about.png"
                 alt="Questus Corporate Team"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                className="w-full h-full object-cover"
               />
             </motion.div>
           </div>
@@ -151,20 +151,20 @@ const QuestusPharma = () => {
                     transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
                     className="h-full"
                   >
-                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 group border border-slate-100/60 flex flex-col h-full hover:-translate-y-2 overflow-hidden max-w-[320px] mx-auto w-full">
+                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100/60 flex flex-col h-full max-w-[320px] mx-auto w-full">
                       <div className="relative h-[280px] md:h-[300px] lg:h-[320px] bg-brand-light w-full shrink-0">
                         <img
                           src={director.img}
                           alt={director.role}
-                          className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-1000 ease-in-out"
+                          className="w-full h-full object-cover object-top"
                         />
                       </div>
 
                       <div className="flex-grow flex flex-col items-center justify-start text-center px-4 pt-3 pb-5">
-                        <h4 className="text-base md:text-lg font-serif font-black text-brand-dark mb-0.5 leading-snug group-hover:text-brand-primary transition-colors">{director.name}</h4>
+                        <h4 className="text-base md:text-lg font-serif font-black text-brand-dark mb-0.5 leading-snug">{director.name}</h4>
                         <p className="text-brand-secondary font-bold text-[10px] md:text-[11px] tracking-wide uppercase">{director.role}</p>
 
-                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-3 transform origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></div>
+                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-3"></div>
                       </div>
                     </div>
                   </motion.div>
@@ -193,20 +193,20 @@ const QuestusPharma = () => {
                     transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
                     className="h-full"
                   >
-                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 group border border-slate-100/60 flex flex-col h-full hover:-translate-y-2 overflow-hidden">
+                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100/60 flex flex-col h-full overflow-hidden">
                       <div className="relative h-[280px] md:h-[300px] lg:h-[320px] bg-brand-light w-full shrink-0">
                         <img
                           src={member.img}
                           alt={member.role}
-                          className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-1000 ease-in-out grayscale-[15%] group-hover:grayscale-0"
+                          className="w-full h-full object-cover object-top"
                         />
                       </div>
 
                       <div className="flex-grow flex flex-col items-center justify-start text-center px-4 pt-3 pb-5">
-                        <h4 className="text-base md:text-lg font-serif font-black text-brand-dark mb-0.5 leading-snug group-hover:text-brand-secondary transition-colors">{member.name}</h4>
+                        <h4 className="text-base md:text-lg font-serif font-black text-brand-dark mb-0.5 leading-snug">{member.name}</h4>
                         <p className="text-brand-primary font-bold text-[10px] md:text-[11px] tracking-wide uppercase">{member.role}</p>
 
-                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-3 transform origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></div>
+                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-3"></div>
                       </div>
                     </div>
                   </motion.div>
