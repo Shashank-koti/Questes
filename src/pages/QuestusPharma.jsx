@@ -2,7 +2,6 @@ import React from 'react';
 import { Award, ShieldCheck, Heart, Sparkles, Star, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
 import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.jpeg";
 import img3 from "../assets/img3.jpeg";
 import img4 from "../assets/img4.jpeg";
 import img5 from "../assets/img5.jpeg";
@@ -18,7 +17,7 @@ const QuestusPharma = () => {
 
   const directors = [
     { img: img3, name: "Mr. Asheesh Bhatnagar", role: "Director" },
-    { img: img1, name: "Mrs. Pameela Paruchuri", role: "Director (Legal & Company Secretary)" }
+    { img: img1, name: "Mrs. Pameela Paruchuri", role: "Director - Finance, Legal & CS" }
   ];
 
   const salesTeam = [
@@ -151,7 +150,7 @@ const QuestusPharma = () => {
                     transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
                     className="h-full"
                   >
-                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100/60 flex flex-col h-full max-w-[320px] mx-auto w-full">
+                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100/60 flex flex-col h-full overflow-hidden max-w-[320px] mx-auto w-full">
                       <div className="relative h-[280px] md:h-[300px] lg:h-[320px] bg-brand-light w-full shrink-0">
                         <img
                           src={director.img}
@@ -180,7 +179,6 @@ const QuestusPharma = () => {
                 <p className="text-brand-muted max-w-2xl mx-auto font-light leading-relaxed mt-4">
                   Our robust sales and marketing framework drives product penetration, expanding our reach and ensuring access to essential medicines.
                 </p>
-                <div className="w-20 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary mx-auto rounded-full mt-6"></div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 justify-center">
