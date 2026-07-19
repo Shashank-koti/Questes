@@ -7,7 +7,7 @@ const displayData = () => {
     {
       value: "5+",
       label: "Continents",
-      desc: "Delivering crucial therapeutics globally across European, Asian, Australian.",
+      desc: "Delivering crucial therapeutics globally across European and Asian markets.",
       icon: <Globe2 className="w-6 h-6 text-brand-accent" />
     },
     {
@@ -17,7 +17,7 @@ const displayData = () => {
       icon: <HeartPulse className="w-6 h-6 text-brand-secondary" />
     },
     {
-      value: "30+",
+      value: "5+",
       label: "Years Domain Expertise",
       desc: "Deep knowledge in pharmaceutical sciences led by veteran researchers and technicians.",
       icon: <Award className="w-6 h-6 text-brand-accent" />
@@ -25,7 +25,7 @@ const displayData = () => {
     {
       value: "100%",
       label: "Global Compliance",
-      desc: "Strictly manufactured under world-class cGMP standards for ultimate safety.",
+      desc: "Strictly manufactured under world class cGMP standards for ultimate safety.",
       icon: <ShieldCheck className="w-6 h-6 text-brand-secondary" />
     }
   ];

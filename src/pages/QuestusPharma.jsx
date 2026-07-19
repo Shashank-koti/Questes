@@ -16,11 +16,12 @@ import img11 from "../assets/img11.jpeg";
 const QuestusPharma = () => {
 
   const directors = [
-    { img: img3, name: "Mr. Asheesh Bhatnagar", role: "Director" },
+    { img: img3, name: "Mr. Asheesh Bhatnagar", role: "Director - Sales, Marketing & Business Development" },
     { img: img1, name: "Mrs. Pameela Paruchuri", role: "Director - Finance, Legal & CS" }
   ];
 
   const salesTeam = [
+    { img: img11, name: "Mr. Akhilesh Kumar Vishwakarma", role: "Deputy Sales Manager" },
     { img: img5, name: "Mr. Naik Pravin Purushottam", role: "General Manager (Sales)" },
     { img: img6, name: "Mr. Pawan Arora", role: "Sales Manager" },
     { img: img8, name: "Mr. M. Raghurama Chary", role: "Sales Manager" },
@@ -28,24 +29,22 @@ const QuestusPharma = () => {
     { img: img4, name: "Mr. Debasish Rudra", role: "Deputy Sales Manager" },
     { img: img7, name: "Mr. Shiv Rajendra Agrahari", role: "Deputy Sales Manager" },
     { img: img10, name: "Mr. Agrawal Bhuvanbhai Ramchandra", role: "Deputy Sales Manager" },
-    { img: img11, name: "Mr. Akhilesh Kumar Vishwakarma", role: "Deputy Sales Manager" }
   ]
 
   return (
     <div className="bg-brand-light min-h-screen">
       {/* Page Header */}
-      <section className="relative py-24 md:py-32 bg-brand-dark overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-brand-dark"></div>
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-brand-primary/10 rounded-full blur-3xl"></div>
+      <section className="relative py-24 bg-brand-dark overflow-hidden">
+        <img src="/images/bg/about_bg_clean_1784458852093.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
 
-        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
+        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> About Us
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight uppercase">
             WHO WE <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">ARE</span>
           </h1>
-          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-sans font-light leading-relaxed">
+          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-sans font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
             Headquartered in Hyderabad, India, Questus Pharma serves both domestic and international markets with a focus on quality, compliance, and excellence.
           </p>
         </div>
@@ -203,8 +202,6 @@ const QuestusPharma = () => {
                       <div className="flex-grow flex flex-col items-center justify-start text-center px-4 pt-3 pb-5">
                         <h4 className="text-base md:text-lg font-serif font-black text-brand-dark mb-0.5 leading-snug">{member.name}</h4>
                         <p className="text-brand-primary font-bold text-[10px] md:text-[11px] tracking-wide uppercase">{member.role}</p>
-
-                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-3"></div>
                       </div>
                     </div>
                   </motion.div>
@@ -220,7 +217,7 @@ const QuestusPharma = () => {
             <div className="relative z-10 max-w-3xl mx-auto text-center space-y-8">
               <span className="text-brand-secondary font-bold tracking-[0.2em] uppercase text-xs block">Global Reach</span>
               <p className="text-xl md:text-2xl text-brand-dark font-serif italic leading-relaxed">
-                "Our products are manufactured to meet the quality requirements of multiple international markets, including regions across Europe, Asia, Africa, Australia, and Latin America."
+                "Our products are manufactured to meet the quality requirements of multiple international markets, including regions across Europe, Asia, Africa and Latin America."
               </p>
               <div className="pt-2">
                 <div className="w-12 h-1 bg-gradient-to-r from-brand-primary to-brand-secondary mx-auto rounded-full"></div>

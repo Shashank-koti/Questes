@@ -24,18 +24,17 @@ const Infrastructure = () => {
     <div className="bg-brand-light min-h-screen">
       {/* Page Header */}
       <section className="relative py-24 bg-brand-dark overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-brand-dark"></div>
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-brand-primary/10 rounded-full blur-3xl"></div>
+        <img src="/images/bg/infrastructure_bg_1784458120949.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
         
-        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
+        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> Advanced Facilities
           </span>
           <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Infrastructure</span>
           </h1>
-          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
-            Questus Pharma has invested in world-class infrastructure designed to meet global pharmaceutical manufacturing standards.
+          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
+            Questus Pharma has invested in world class infrastructure designed to meet global pharmaceutical manufacturing standards.
           </p>
         </div>
       </section>

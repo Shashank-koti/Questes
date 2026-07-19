@@ -7,17 +7,16 @@ const Contact = () => {
     <div className="bg-brand-light min-h-screen pb-24">
       {/* Page Header */}
       <section className="relative py-24 bg-brand-dark overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-brand-dark"></div>
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-brand-primary/10 rounded-full blur-3xl"></div>
+        <img src="/images/bg/contact_bg_sharp_1784459171461.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
 
-        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4">
+        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> Contact Us
           </span>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-black text-white leading-tight tracking-tight">
             Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">With Us</span>
           </h1>
-          <p className="text-lg md:text-xl text-brand-faint/80 max-w-2xl mx-auto font-light leading-relaxed">
+          <p className="text-lg md:text-xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
             Committed to advancing healthcare through science, quality, and innovation.
           </p>
         </div>
@@ -51,7 +50,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-brand-dark text-lg mb-1">Headquarters</h4>
                   <p className="text-brand-muted leading-relaxed font-light text-sm max-w-[280px]">
-                    Sirisuns Hirise Building, First & Second Floor, Plot No.13, Sy. No. 70, Image Garden Road, Silicon Valley, Madhapur, Hyderabad-500081
+                    3rd Floor, Niharika Enclave, HIG-71, Phase-V, KPHB Colony, Kukatpally, Hyderabad, Telangana – 500085, India
                   </p>
                 </div>
               </div>
@@ -64,7 +63,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-brand-dark text-lg mb-1">Phone</h4>
                   <p className="text-brand-muted font-light text-sm">
-                    +91-8121009671
+                    +91-9581118081
                   </p>
                 </div>
               </div>

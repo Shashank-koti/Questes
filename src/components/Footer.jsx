@@ -72,7 +72,7 @@ const Footer = () => {
               <li className="flex gap-3">
                 <MapPin className="w-4 h-4 text-brand-primary flex-shrink-0 mt-0.5" />
                 <span>
-                  3rd Floor, Niharika Enclave, HIG-71, Phase-V, KPHB Colony, Kukatpally, Hyderabad, Telangana – 500 085, India
+                  3rd Floor, Niharika Enclave, HIG-71, Phase-V, KPHB Colony, Kukatpally, Hyderabad, Telangana – 500085, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
