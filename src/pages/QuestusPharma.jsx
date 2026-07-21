@@ -21,10 +21,11 @@ const QuestusPharma = () => {
   ];
 
   const salesTeam = [
-    { img: img11, name: "Mr. Akhilesh Kumar Vishwakarma", role: "Deputy Sales Manager" },
+    { img: img9, name: "Mr. Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" },
     { img: img5, name: "Mr. Naik Pravin Purushottam", role: "General Manager (Sales)" },
     { img: img6, name: "Mr. Pawan Arora", role: "Sales Manager" },
     { img: img8, name: "Mr. M. Raghurama Chary", role: "Sales Manager" },
+    { img: img11, name: "Mr. Akhilesh Kumar Vishwakarma", role: "Deputy Sales Manager" },
     { img: img9, name: "Mr. Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" },
     { img: img4, name: "Mr. Debasish Rudra", role: "Deputy Sales Manager" },
     { img: img7, name: "Mr. Shiv Rajendra Agrahari", role: "Deputy Sales Manager" },
