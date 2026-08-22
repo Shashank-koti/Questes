@@ -32,13 +32,13 @@ const Careers = () => {
         <img src="/images/bg/careers_bg_1784458101451.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> Join Our Team
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-serif font-black text-white tracking-tight">
             Build Your Future <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">with Questus Pharma</span>
           </h1>
-          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
+          <p className="text-xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
             At Questus Pharma, people are our greatest strength. We provide an environment that encourages learning, growth, collaboration, and professional development.
           </p>
         </div>
@@ -72,13 +72,13 @@ const Careers = () => {
               className="space-y-5 order-1 lg:order-2"
             >
               <div>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block mb-2">Our Culture</span>
-                <h2 className="text-2xl md:text-3xl font-serif font-black text-brand-dark leading-tight">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-sm block mb-2">Our Culture</span>
+                <h2 className="text-3xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
                   Unlocking Potential. <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Driving Innovation.</span>
                 </h2>
               </div>
-              <p className="text-brand-muted leading-relaxed font-sans font-light text-sm max-w-lg">
+              <p className="text-brand-muted leading-relaxed font-sans font-light text-base max-w-lg">
                 As an equal opportunity employer, we value talent, diversity, and innovation. If you are passionate about pharmaceutical sciences and aspire to make a meaningful impact in healthcare, we invite you to join our growing team.
               </p>
 
@@ -88,8 +88,8 @@ const Careers = () => {
                     <GraduationCap className="w-4 h-4 text-brand-primary" />
                   </div>
                   <div>
-                    <h4 className="text-base font-bold text-brand-dark mb-0.5">Continuous Learning</h4>
-                    <p className="text-brand-muted text-xs font-light">Direct mentoring programs and clinical case studies to enhance your expertise.</p>
+                    <h4 className="text-lg font-bold text-brand-dark mb-0.5">Continuous Learning</h4>
+                    <p className="text-brand-muted text-sm font-light">Direct mentoring programs and clinical case studies to enhance your expertise.</p>
                   </div>
                 </div>
 
@@ -98,8 +98,8 @@ const Careers = () => {
                     <Briefcase className="w-4 h-4 text-brand-secondary" />
                   </div>
                   <div>
-                    <h4 className="text-base font-bold text-brand-dark mb-0.5">Impactful Work</h4>
-                    <p className="text-brand-muted text-xs font-light">Develop high precision formulations targeting critical therapeutic areas globally.</p>
+                    <h4 className="text-lg font-bold text-brand-dark mb-0.5">Impactful Work</h4>
+                    <p className="text-brand-muted text-sm font-light">Develop high precision formulations targeting critical therapeutic areas globally.</p>
                   </div>
                 </div>
               </div>
@@ -111,8 +111,8 @@ const Careers = () => {
             <div className="bg-white rounded-[2rem] sm:rounded-[3rem] p-5 sm:p-10 md:p-16 border border-brand-border/80 shadow-2xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-brand-faint rounded-bl-full -z-0"></div>
               <div className="relative z-10 text-center mb-12 space-y-3">
-                <h3 className="text-3xl md:text-4xl font-serif font-black text-brand-dark">Start Your Journey</h3>
-                <p className="text-brand-muted text-lg font-light">Submit your details below for our HR team to review.</p>
+                <h3 className="text-4xl md:text-5xl font-serif font-black text-brand-dark">Start Your Journey</h3>
+                <p className="text-brand-muted text-xl font-light">Submit your details below for our HR team to review.</p>
               </div>
               <div className="relative z-10">
                 <CareerForm />

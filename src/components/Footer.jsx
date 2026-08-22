@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Brand Info */}
           <div>
             <img src={logo} alt="questus logo" className='h-14 w-28' />
-            <p className="text-brand-faint/70 text-sm leading-relaxed max-w-xs">
+            <p className="text-brand-faint/70 text-base leading-relaxed max-w-xs">
               A premier global pharmaceutical manufacturer delivering patient-centric formulations across Cardiology, ICU, and Pain Management.
             </p>
 
@@ -21,26 +21,36 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-bold text-base mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-brand-faint/75">
+            <h4 className="font-bold text-lg mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-base text-brand-faint/75">
               <li>
-                <Link to="/about/vision-mission" className="hover:text-brand-primary transition-colors flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Our Vision & Mission
+                <Link to="/about/questus-pharma" className="hover:text-brand-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>About Us
                 </Link>
               </li>
               <li>
                 <Link to="/portfolio" className="hover:text-brand-primary transition-colors flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Therapeutics Portfolio
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Portfolio
                 </Link>
               </li>
               <li>
                 <Link to="/science" className="hover:text-brand-primary transition-colors flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>R&D Sciences & DNA
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Science & DNA
                 </Link>
               </li>
               <li>
                 <Link to="/infrastructure" className="hover:text-brand-primary transition-colors flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Scale & Infrastructure
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Infrastructure
+                </Link>
+              </li>
+              <li>
+                <Link to="/careers" className="hover:text-brand-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Careers
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="hover:text-brand-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>Contact
                 </Link>
               </li>
             </ul>
@@ -48,8 +58,8 @@ const Footer = () => {
 
           {/* Therapeutic Areas */}
           <div>
-            <h4 className="font-bold text-base mb-4">Therapeutic Focus</h4>
-            <ul className="space-y-2 text-sm text-brand-faint/75">
+            <h4 className="font-bold text-lg mb-4">Therapeutic Focus</h4>
+            <ul className="space-y-2 text-base text-brand-faint/75">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Cardiology Range
               </li>
@@ -67,8 +77,8 @@ const Footer = () => {
 
           {/* Contact Details */}
           <div>
-            <h4 className="font-bold text-base mb-4">Contact Us</h4>
-            <ul className="space-y-3 text-sm text-brand-faint/75">
+            <h4 className="font-bold text-lg mb-4">Contact Us</h4>
+            <ul className="space-y-3 text-base text-brand-faint/75">
               <li className="flex gap-3">
                 <MapPin className="w-4 h-4 text-brand-primary flex-shrink-0 mt-0.5" />
                 <span>
@@ -88,7 +98,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/5 text-center text-xs text-brand-muted flex flex-col sm:flex-row justify-center items-center gap-4">
+        <div className="mt-10 pt-6 border-t border-white/5 text-center text-sm text-brand-muted flex flex-col sm:flex-row justify-center items-center gap-4">
           <p>&copy; {new Date().getFullYear()} Questus Pharma Pvt. Ltd | All rights reserved | Powered by <a href="https://arccreativemedia.com/" target="_blank" rel="noopener noreferrer">Arc Creative Media</a></p>
         </div>
       </div>

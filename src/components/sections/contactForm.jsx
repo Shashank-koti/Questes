@@ -58,14 +58,14 @@ const contactForm = () => {
   return (
     <div className="bg-white rounded-3xl p-5 sm:p-8 md:p-12 border border-brand-border shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-full">
       <div className="mb-8">
-        <h3 className="text-2xl font-bold text-brand-dark mb-2">Send us a Message</h3>
-        <p className="text-brand-muted font-light text-sm">We'll get back to you within 24 hours.</p>
+        <h3 className="text-3xl font-bold text-brand-dark mb-2">Send us a Message</h3>
+        <p className="text-brand-muted font-light text-base">We'll get back to you within 24 hours.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-6">
 
         <div>
-          <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
+          <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
             FULL NAME <span className="text-red-400">*</span>
           </label>
           <input
@@ -80,7 +80,7 @@ const contactForm = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
+            <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
               EMAIL <span className="text-red-400">*</span>
             </label>
             <input
@@ -93,7 +93,7 @@ const contactForm = () => {
             />
           </div>
           <div>
-            <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
+            <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
               MOBILE <span className="text-red-400">*</span>
             </label>
             <input
@@ -108,7 +108,7 @@ const contactForm = () => {
         </div>
 
         <div>
-          <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
+          <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
             COUNTRY <span className="text-red-400">*</span>
           </label>
           <input
@@ -122,7 +122,7 @@ const contactForm = () => {
         </div>
 
         <div>
-          <label className="block text-xs font-bold text-brand-muted uppercase tracking-wider mb-2">
+          <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
             MESSAGE <span className="text-red-400">*</span>
           </label>
           <textarea

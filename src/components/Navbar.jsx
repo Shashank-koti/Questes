@@ -56,10 +56,10 @@ const Navbar = () => {
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${forceSolidNav ? 'glass-nav py-3' : 'bg-transparent py-5 border-none shadow-none outline-none ring-0'
         }`}
     >
-      <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
+      <div className="container mx-auto px-4 md:px-10 flex justify-between items-center">
         {/* Logo area */}
-        <Link to="/" className="flex items-baseline cursor-pointer group">
-          <img src={Logo} alt="questus logo" className='h-16 w-25' />
+        <Link to="/" className="flex cursor-pointer group">
+          <img src={Logo} alt="questus logo" className='h-20 w-25' />
         </Link>
 
         {/* Desktop Navigation */}
@@ -73,7 +73,7 @@ const Navbar = () => {
             >
               {link.hasDropdown ? (
                 <div
-                  className={`flex items-center text-sm font-semibold transition-colors duration-300 cursor-pointer hover:text-brand-modern ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'
+                  className={`flex items-center text-base font-semibold transition-colors duration-300 cursor-pointer hover:text-brand-modern ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'
                     }`}
                 >
                   {link.name}
@@ -82,7 +82,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   to={link.to}
-                  className={`flex items-center text-sm font-semibold transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-brand-modern after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'}`}>
+                  className={`flex items-center text-base font-semibold transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-brand-modern after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left ${forceSolidNav ? 'text-brand-dark' : 'text-white/95'}`}>
                   {link.name}
                 </Link>
               )}
@@ -97,7 +97,7 @@ const Navbar = () => {
                     <Link
                       key={idx}
                       to={item.to}
-                      className="flex items-center px-4 py-3 hover:bg-brand-faint text-sm font-medium text-brand-dark transition-colors"
+                      className="flex items-center px-4 py-3 hover:bg-brand-faint text-base font-medium text-brand-dark transition-colors"
                       onClick={() => setActiveDropdown(null)}
                     >
                       {item.icon}
@@ -109,7 +109,7 @@ const Navbar = () => {
             </div>
           ))}
 
-          <a href="https://wa.me/919581118081" className="bg-brand-primary hover:bg-brand-secondary text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-[0_4px_14px_rgba(6,76,157,0.35)] hover:shadow-[0_6px_20px_rgba(6,76,157,0.5)] transition-all duration-300 transform hover:-translate-y-0.5" target="_blank">
+          <a href="https://wa.me/919581118081" className="bg-brand-primary hover:bg-brand-secondary text-white px-6 py-2.5 rounded-full text-base font-bold shadow-[0_4px_14px_rgba(6,76,157,0.35)] hover:shadow-[0_6px_20px_rgba(6,76,157,0.5)] transition-all duration-300 transform hover:-translate-y-0.5" target="_blank">
             Chat With Us
           </a>
         </nav>
@@ -157,7 +157,7 @@ const Navbar = () => {
                     <Link
                       key={idx}
                       to={item.to}
-                      className="flex items-center py-2 text-sm font-medium text-brand-dark hover:text-brand-primary transition-colors"
+                      className="flex items-center py-2 text-base font-medium text-brand-dark hover:text-brand-primary transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.icon}

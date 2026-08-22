@@ -30,7 +30,7 @@ const Portfolio = () => {
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-serif font-bold text-brand-secondary mb-6"
+            className="text-5xl md:text-6xl font-serif font-bold text-brand-secondary mb-6"
           >
             Our Therapeutic <span className="text-brand-modern">Portfolio</span>
           </motion.h1>
@@ -38,7 +38,7 @@ const Portfolio = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-lg text-brand-muted max-w-2xl mx-auto leading-relaxed"
+            className="text-xl text-brand-muted max-w-2xl mx-auto leading-relaxed"
           >
             Questus Pharma specializes in pharmaceutical formulations across critical healthcare segments.
           </motion.p>
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 <HeartPulse size={24} strokeWidth={1.5} />
               </div>
             </div>
-            <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">Cardiology – Critical Emergencies</h3>
+            <h3 className="text-2xl font-sans font-bold text-brand-secondary mb-4">Cardiology – Critical Emergencies</h3>
             <p className="text-brand-muted mb-8 line-clamp-3 leading-relaxed flex-grow">
               Supporting healthcare professionals with reliable formulations designed for critical cardiovascular care and emergency interventions.
             </p>
@@ -82,7 +82,7 @@ const Portfolio = () => {
                 <Syringe size={24} strokeWidth={1.5} />
               </div>
             </div>
-            <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">Anesthesia</h3>
+            <h3 className="text-2xl font-sans font-bold text-brand-secondary mb-4">Anesthesia</h3>
             <p className="text-brand-muted mb-8 line-clamp-3 leading-relaxed flex-grow">
               Delivering quality anesthetic solutions that support surgical procedures and patient care across healthcare settings.
             </p>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                 <Activity size={24} strokeWidth={1.5} />
               </div>
             </div>
-            <h3 className="text-xl font-sans font-bold text-brand-secondary mb-4">ICU – Critical Care</h3>
+            <h3 className="text-2xl font-sans font-bold text-brand-secondary mb-4">ICU – Critical Care</h3>
             <p className="text-brand-muted mb-8 line-clamp-3 leading-relaxed flex-grow">
               Providing specialized formulations developed to meet the demanding requirements of intensive care and emergency medicine.
             </p>
@@ -124,8 +124,8 @@ const Portfolio = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <p className="text-sm font-bold tracking-widest text-brand-accent uppercase mb-2">Product Catalog</p>
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-brand-secondary">
+              <p className="text-base font-bold tracking-widest text-brand-accent uppercase mb-2">Product Catalog</p>
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-brand-secondary">
                 Detailed <span className="text-brand-modern">Product</span><br />Information
               </h2>
             </motion.div>
@@ -163,7 +163,7 @@ const Portfolio = () => {
                   <div className="p-6 md:p-8 border-b border-gray-100">
                     <div className="flex items-center gap-4">
                       <div className="w-2 h-8 bg-brand-modern rounded-full"></div>
-                      <h3 className="text-2xl font-bold text-brand-secondary">{category.categoryName}</h3>
+                      <h3 className="text-3xl font-bold text-brand-secondary">{category.categoryName}</h3>
                     </div>
                   </div>
 
@@ -177,7 +177,7 @@ const Portfolio = () => {
                           <th className="py-3 px-6 md:px-8">Dosage Form</th>
                         </tr>
                       </thead>
-                      <tbody className="divide-y divide-gray-100 text-sm">
+                      <tbody className="divide-y divide-gray-100 text-base">
                         {category.items.map((item, i) => (
                           <tr key={i} className="hover:bg-gray-50/50 transition-colors">
                             <td className="py-3.5 px-6 md:px-8">
@@ -200,7 +200,7 @@ const Portfolio = () => {
               ))
             ) : (
               <div className="text-center py-12 bg-white rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
-                <p className="text-lg text-brand-muted">No products found matching "{searchTerm}"</p>
+                <p className="text-xl text-brand-muted">No products found matching "{searchTerm}"</p>
               </div>
             )}
           </div>

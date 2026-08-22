@@ -63,13 +63,13 @@ const Home = () => {
               >
                 <div className="flex items-center justify-between border-t border-brand-border/30 ">
                   <div>
-                    <p className="text-2xl md:text-3xl font-black text-brand-primary">100<span className="text-base md:text-lg text-brand-accent">+</span></p>
-                    <p className="text-[10px] md:text-xs font-bold text-brand-dark uppercase tracking-wider">SKUs</p>
+                    <p className="text-3xl md:text-4xl font-black text-brand-primary">100<span className="text-lg md:text-xl text-brand-accent">+</span></p>
+                    <p className="text-[10px] md:text-sm font-bold text-brand-dark uppercase tracking-wider">SKUs</p>
                   </div>
                   <div className="w-px h-10 bg-brand-border/30 mx-2"></div>
                   <div>
-                    <p className="text-2xl md:text-3xl font-black text-brand-secondary">100<span className="text-base md:text-lg text-brand-soft">%</span></p>
-                    <p className="text-[10px] md:text-xs font-bold text-brand-dark uppercase tracking-wider">cGMP</p>
+                    <p className="text-3xl md:text-4xl font-black text-brand-secondary">100<span className="text-lg md:text-xl text-brand-soft">%</span></p>
+                    <p className="text-[10px] md:text-sm font-bold text-brand-dark uppercase tracking-wider">cGMP</p>
                   </div>
                 </div>
               </motion.div>
@@ -83,7 +83,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-2xl sm:text-3xl lg:text-3xl font-serif font-black text-brand-dark leading-[1.1] tracking-tight"
+                className="text-3xl sm:text-4xl lg:text-4xl font-serif font-black text-brand-dark leading-[1.1] tracking-tight"
               >
                 Excellence Through <br />
                 <span className="text-brand-primary">Expertise</span>
@@ -94,7 +94,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-lg text-brand-muted font-sans font-light leading-relaxed"
+                className="text-xl text-brand-muted font-sans font-light leading-relaxed"
               >
                 At Questus Pharma, we combine infrastructure, scientific expertise, and passion to develop pharmaceutical solutions that improve lives. Our integrated Research & Development and Manufacturing Centre spans over 6 acres, supported by a 12,000 sq. ft. Center of Excellence, enabling us to deliver quality medicines for global healthcare markets.
               </motion.p>
@@ -129,10 +129,10 @@ const Home = () => {
               <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
                 WHY QUESTUS PHARMA?
               </span>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark leading-tight tracking-tight uppercase">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-black text-brand-dark leading-tight tracking-tight uppercase">
                 Specialized Focus on Critical Care Segments
               </h2>
-              <p className="text-lg text-brand-muted font-sans font-light leading-relaxed mt-4">
+              <p className="text-xl text-brand-muted font-sans font-light leading-relaxed mt-4">
                 State-of-the-Art R&D and Manufacturing Facilities • Experienced Pharmaceutical Leadership • Global Quality Standards • Commitment to Innovation and Patient Care
               </p>
             </div>
@@ -168,7 +168,7 @@ const Home = () => {
 
                 {/* Card Content */}
                 <div className="p-6 md:p-8 bg-white relative z-20">
-                  <h3 className="text-xl md:text-2xl font-serif font-bold text-brand-dark mb-3 group-hover:text-brand-accent transition-colors duration-300">
+                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-brand-dark mb-3 group-hover:text-brand-accent transition-colors duration-300">
                     {card.title}
                   </h3>
                   <p className="text-brand-muted font-sans font-light leading-relaxed">
@@ -186,7 +186,7 @@ const Home = () => {
               <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
                 At a Glance
               </span>
-              <h3 className="text-3xl md:text-4xl font-serif font-black text-brand-dark">Questus Global Footprint</h3>
+              <h3 className="text-4xl md:text-5xl font-serif font-black text-brand-dark">Questus Global Footprint</h3>
             </div>
             <DisplayData />
           </div>

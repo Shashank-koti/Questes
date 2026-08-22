@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-size: 105%;
+    /* Increases base rem size slightly */
+  }
+
   body {
     @apply bg-brand-light text-brand-dark antialiased font-sans;
   }

@@ -10,13 +10,13 @@ const Contact = () => {
         <img src="/images/bg/contact_bg_sharp_1784459171461.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> Contact Us
           </span>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-black text-white leading-tight tracking-tight">
+          <h1 className="text-6xl md:text-7xl lg:text-7xl font-serif font-black text-white leading-tight tracking-tight">
             Partner <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">With Us</span>
           </h1>
-          <p className="text-lg md:text-xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
+          <p className="text-xl md:text-2xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
             Committed to advancing healthcare through science, quality, and innovation.
           </p>
         </div>
@@ -29,11 +29,11 @@ const Contact = () => {
 
           {/* Text and Info Column */}
           <div className="w-full lg:w-5/12 pt-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-[0.15em] uppercase text-xs mb-6 block">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-[0.15em] uppercase text-sm mb-6 block">
               CONTACT US
             </span>
 
-            <h2 className="text-xl sm:text-2xl lg:text-3xl leading-[1.1] font-bold text-brand-dark mb-8 font-serif">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl leading-[1.1] font-bold text-brand-dark mb-8 font-serif">
               Have questions about our products, partnerships, or services?
             </h2>
 
@@ -48,8 +48,8 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-brand-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-brand-dark text-lg mb-1">Headquarters</h4>
-                  <p className="text-brand-muted leading-relaxed font-light text-sm max-w-[280px]">
+                  <h4 className="font-bold text-brand-dark text-xl mb-1">Headquarters</h4>
+                  <p className="text-brand-muted leading-relaxed font-light text-base max-w-[280px]">
                     3rd Floor, Niharika Enclave, HIG-71, Phase-V, KPHB Colony, Kukatpally, Hyderabad, Telangana – 500085, India
                   </p>
                 </div>
@@ -61,8 +61,8 @@ const Contact = () => {
                   <Phone className="w-5 h-5 text-brand-secondary" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-brand-dark text-lg mb-1">Phone</h4>
-                  <p className="text-brand-muted font-light text-sm">
+                  <h4 className="font-bold text-brand-dark text-xl mb-1">Phone</h4>
+                  <p className="text-brand-muted font-light text-base">
                     +91-9581118081
                   </p>
                 </div>
@@ -74,8 +74,8 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-brand-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-brand-dark text-lg mb-1">Email</h4>
-                  <p className="text-brand-muted font-light text-sm">
+                  <h4 className="font-bold text-brand-dark text-xl mb-1">Email</h4>
+                  <p className="text-brand-muted font-light text-base">
                     connect@questuspharma.com
                   </p>
                 </div>

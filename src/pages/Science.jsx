@@ -27,13 +27,13 @@ const Science = () => {
         <img src="/images/bg/science_bg_clean_1784458886866.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
 
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> R&D Paradigms
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight uppercase">
+          <h1 className="text-5xl md:text-7xl font-serif font-black text-white tracking-tight uppercase">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">SCIENCE IS</span> OUR QUEST
           </h1>
-          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
+          <p className="text-xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
             Science drives everything we do at Questus Pharma.
           </p>
         </div>
@@ -52,11 +52,11 @@ const Science = () => {
               className="space-y-6"
             >
               <div className="space-y-3">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scientific Innovation</span>
-                <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-sm block">Scientific Innovation</span>
+                <h2 className="text-3xl md:text-5xl font-serif font-black text-brand-dark leading-tight">
                   Science drives everything we do <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">at Questus Pharma.</span>
                 </h2>
-                <p className="text-brand-muted leading-relaxed font-sans font-light text-base max-w-lg">
+                <p className="text-brand-muted leading-relaxed font-sans font-light text-lg max-w-lg">
                   Through continuous research and innovation, we strive to deliver safe, effective, and affordable pharmaceutical solutions for healthcare providers worldwide.
                 </p>
               </div>
@@ -67,8 +67,8 @@ const Science = () => {
                     <Microscope className="w-5 h-5 text-brand-primary" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-brand-dark mb-1">Expertise across disciplines</h4>
-                    <p className="text-brand-muted leading-relaxed text-sm">Our team brings together expertise in pharmaceutical chemistry, formulation development, biotechnology, regulatory affairs, and manufacturing sciences to develop medicines that improve patient care.</p>
+                    <h4 className="text-xl font-bold text-brand-dark mb-1">Expertise across disciplines</h4>
+                    <p className="text-brand-muted leading-relaxed text-base">Our team brings together expertise in pharmaceutical chemistry, formulation development, biotechnology, regulatory affairs, and manufacturing sciences to develop medicines that improve patient care.</p>
                   </div>
                 </div>
 
@@ -77,8 +77,8 @@ const Science = () => {
                     <TestTube2 className="w-5 h-5 text-brand-secondary" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-brand-dark mb-1">Continuous Research & Innovation</h4>
-                    <p className="text-brand-muted leading-relaxed text-sm">We strive to deliver safe, effective, and affordable pharmaceutical solutions for healthcare providers worldwide.</p>
+                    <h4 className="text-xl font-bold text-brand-dark mb-1">Continuous Research & Innovation</h4>
+                    <p className="text-brand-muted leading-relaxed text-base">We strive to deliver safe, effective, and affordable pharmaceutical solutions for healthcare providers worldwide.</p>
                   </div>
                 </div>
               </div>
@@ -102,8 +102,8 @@ const Science = () => {
                 <div className="flex items-start gap-4">
                   <Shield className="w-8 h-8 text-brand-primary flex-shrink-0" />
                   <div>
-                    <h4 className="text-lg font-bold text-brand-dark mb-1">Uncompromising Quality</h4>
-                    <p className="text-brand-muted text-xs font-medium leading-relaxed">Embedding clinical precision into every product lifecycle, adhering to global standards.</p>
+                    <h4 className="text-xl font-bold text-brand-dark mb-1">Uncompromising Quality</h4>
+                    <p className="text-brand-muted text-sm font-medium leading-relaxed">Embedding clinical precision into every product lifecycle, adhering to global standards.</p>
                   </div>
                 </div>
               </div>

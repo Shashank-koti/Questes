@@ -44,11 +44,11 @@ const displayData = () => {
             <div className="w-12 h-12 rounded-xl bg-brand-faint flex items-center justify-center mb-6">
               {stat.icon}
             </div>
-            <div className="text-4xl font-extrabold text-brand-dark mb-2 tracking-tight">
+            <div className="text-5xl font-extrabold text-brand-dark mb-2 tracking-tight">
               {stat.value}
             </div>
-            <h4 className="font-bold text-brand-dark text-base mb-1">{stat.label}</h4>
-            <p className="text-brand-muted text-sm leading-relaxed">{stat.desc}</p>
+            <h4 className="font-bold text-brand-dark text-lg mb-1">{stat.label}</h4>
+            <p className="text-brand-muted text-base leading-relaxed">{stat.desc}</p>
           </div>
         </motion.div>
       ))}

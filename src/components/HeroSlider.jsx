@@ -72,7 +72,7 @@ const HeroSlider = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.8 }}
                   >
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-white leading-tight tracking-tight drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-black text-white leading-tight tracking-tight drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
                       {heroSlides[current].title} <span className="text-[#d42278] block sm:inline drop-shadow-[0_4px_8px_rgba(0,0,0,1)]">{heroSlides[current].subtitle}</span>
                     </h2>
                   </motion.div>
@@ -83,7 +83,7 @@ const HeroSlider = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6, duration: 0.8 }}
                   >
-                    <p className="text-base md:text-lg font-sans text-white/95 font-light leading-relaxed max-w-2xl drop-shadow-md">
+                    <p className="text-lg md:text-xl font-sans text-white/95 font-light leading-relaxed max-w-2xl drop-shadow-md">
                       {heroSlides[current].desc}
                     </p>
                   </motion.div>
@@ -98,7 +98,7 @@ const HeroSlider = () => {
                     <Button
                       variant="contained"
                       onClick={() => navigate(heroSlides[current].link)}
-                      className="group/btn relative overflow-hidden bg-brand-primary hover:bg-brand-secondary text-white px-8 py-4 rounded-full font-bold text-sm md:text-base normal-case shadow-[0_4px_14px_rgba(6,76,157,0.35)] hover:shadow-[0_6px_20px_rgba(6,76,157,0.5)] transition-all duration-300"
+                      className="group/btn relative overflow-hidden bg-brand-primary hover:bg-brand-secondary text-white px-8 py-4 rounded-full font-bold text-base md:text-lg normal-case shadow-[0_4px_14px_rgba(6,76,157,0.35)] hover:shadow-[0_6px_20px_rgba(6,76,157,0.5)] transition-all duration-300"
                       sx={{ borderRadius: '9999px', backgroundColor: '#064C9D', '&:hover': { backgroundColor: '#0A2E5C' } }}
                     >
                       <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/25 to-transparent -translate-x-full group-hover/btn:animate-[shimmer_1.5s_infinite]"></span>

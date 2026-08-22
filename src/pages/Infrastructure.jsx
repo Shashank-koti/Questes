@@ -27,13 +27,13 @@ const Infrastructure = () => {
         <img src="/images/bg/infrastructure_bg_1784458120949.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
         
         <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-brand-accent" /> Advanced Facilities
           </span>
-          <h1 className="text-4xl md:text-6xl font-serif font-black text-white tracking-tight">
+          <h1 className="text-5xl md:text-7xl font-serif font-black text-white tracking-tight">
             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Infrastructure</span>
           </h1>
-          <p className="text-lg text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
+          <p className="text-xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
             Questus Pharma has invested in world class infrastructure designed to meet global pharmaceutical manufacturing standards.
           </p>
         </div>
@@ -57,7 +57,7 @@ const Infrastructure = () => {
                 alt="Center of Excellence R&D" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
-              <div className="absolute top-5 left-5 z-20 bg-white/95 backdrop-blur-md px-4 py-2 rounded-full font-bold text-brand-primary flex items-center gap-2 shadow-lg text-xs uppercase tracking-wide border border-brand-border">
+              <div className="absolute top-5 left-5 z-20 bg-white/95 backdrop-blur-md px-4 py-2 rounded-full font-bold text-brand-primary flex items-center gap-2 shadow-lg text-sm uppercase tracking-wide border border-brand-border">
                 <Building2 className="w-4 h-4" /> 12,000 sq.ft.
               </div>
             </motion.div>
@@ -69,16 +69,16 @@ const Infrastructure = () => {
               transition={{ duration: 0.8 }}
               className="space-y-5 order-1 lg:order-2"
             >
-              <span className="text-brand-secondary font-bold tracking-wider uppercase text-xs block">Advanced Research</span>
-              <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
+              <span className="text-brand-secondary font-bold tracking-wider uppercase text-sm block">Advanced Research</span>
+              <h2 className="text-3xl md:text-5xl font-serif font-black text-brand-dark leading-tight">
                 Built for Pharmaceutical Excellence
               </h2>
-              <p className="text-brand-muted leading-relaxed text-base font-light">
+              <p className="text-brand-muted leading-relaxed text-lg font-light">
                 Our facilities are designed to meet the expectations of leading international regulatory agencies and global markets.
               </p>
               <ul className="space-y-3 pt-3 border-t border-brand-border/60">
                 {['Integrated R&D and Manufacturing Centre', '6-Acre Manufacturing Campus', '12,000 Sq. Ft. Center of Excellence', 'Advanced Quality Control Laboratories'].map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-2 text-brand-dark text-sm font-semibold">
+                  <li key={idx} className="flex items-center gap-2 text-brand-dark text-base font-semibold">
                     <CheckCircle2 className="w-5 h-5 text-brand-secondary flex-shrink-0" />
                     {item}
                   </li>
@@ -96,16 +96,16 @@ const Infrastructure = () => {
               transition={{ duration: 0.8 }}
               className="space-y-5"
             >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-xs block">Scale & Precision</span>
-              <h2 className="text-2xl md:text-4xl font-serif font-black text-brand-dark leading-tight">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-wider uppercase text-sm block">Scale & Precision</span>
+              <h2 className="text-3xl md:text-5xl font-serif font-black text-brand-dark leading-tight">
                 Facility Highlights
               </h2>
-              <p className="text-brand-muted leading-relaxed text-base font-light">
+              <p className="text-brand-muted leading-relaxed text-lg font-light">
                 Modern Manufacturing Technologies and Scalable Production Capabilities ensure we meet global pharmaceutical manufacturing standards.
               </p>
               <ul className="space-y-3 pt-3 border-t border-brand-border/60">
                 {['Modern Manufacturing Technologies', 'Scalable Production Capabilities', 'World-Class Infrastructure', 'Global Pharmaceutical Standards'].map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-2 text-brand-dark text-sm font-semibold">
+                  <li key={idx} className="flex items-center gap-2 text-brand-dark text-base font-semibold">
                     <CheckCircle2 className="w-5 h-5 text-brand-primary flex-shrink-0" />
                     {item}
                   </li>
@@ -125,7 +125,7 @@ const Infrastructure = () => {
                 alt="Manufacturing Center" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
-              <div className="absolute bottom-5 right-5 z-20 bg-brand-dark/95 backdrop-blur-md px-4 py-2 rounded-full font-bold text-white flex items-center gap-2 shadow-xl text-xs uppercase tracking-wide border border-white/10">
+              <div className="absolute bottom-5 right-5 z-20 bg-brand-dark/95 backdrop-blur-md px-4 py-2 rounded-full font-bold text-white flex items-center gap-2 shadow-xl text-sm uppercase tracking-wide border border-white/10">
                 <Factory className="w-4 h-4 text-brand-secondary" /> 6 Acres Facility
               </div>
             </motion.div>
