@@ -128,11 +128,10 @@ const QuestusPharma = () => {
                     transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
                     className="h-full"
                   >
-                    <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100/60 flex flex-col h-full overflow-hidden max-w-[320px] mx-auto w-full justify-center">
+                    <div className="bg-slate-200 hover:bg-slate-100 transition-colors duration-300 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-200/60 flex flex-col h-full overflow-hidden max-w-[320px] mx-auto w-full justify-center">
                       <div className="flex-grow flex flex-col items-center justify-center text-center p-8">
                         <h4 className="text-lg md:text-xl font-serif font-black text-brand-dark mb-2 leading-snug">{director.name}</h4>
                         <p className="text-brand-secondary font-bold text-xs tracking-wide uppercase">{director.role}</p>
-                        <div className="w-10 h-1 rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary mt-4"></div>
                       </div>
                     </div>
                   </motion.div>
@@ -154,7 +153,7 @@ const QuestusPharma = () => {
                       transition={{ duration: 0.8, delay: (idx % 3) * 0.15 }}
                       className="h-full"
                     >
-                      <div className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100/60 flex flex-col h-full overflow-hidden justify-center min-h-[160px]">
+                      <div className="bg-slate-200 hover:bg-slate-100  transition-colors duration-300 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-200/60 flex flex-col h-full overflow-hidden justify-center min-h-[160px]">
                         <div className="flex-grow flex flex-col items-center justify-center text-center p-6">
                           <h4 className="text-lg md:text-xl font-serif font-black text-brand-dark mb-2 leading-snug">{member.name}</h4>
                           <p className="text-brand-primary font-bold text-xs tracking-wide uppercase">{member.role}</p>

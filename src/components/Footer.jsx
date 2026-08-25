@@ -58,19 +58,22 @@ const Footer = () => {
 
           {/* Therapeutic Areas */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Therapeutic Focus</h4>
+            <h4 className="font-bold text-lg mb-4">Therapeutic Portfolio</h4>
             <ul className="space-y-2 text-base text-brand-faint/75">
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Cardiology Range
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Cardiovascular
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> ICU Critical Care
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Antifungals
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Sterile Injectables
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Anaesthesia
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Pain Management
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> ICU
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-primary"></span> Nutritional
               </li>
             </ul>
           </div>
