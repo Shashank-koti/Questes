@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <img src={logo} alt="questus logo" className='h-14 w-28' />
             <p className="text-brand-faint/70 text-base leading-relaxed max-w-xs">
-              A premier global pharmaceutical manufacturer delivering patient-centric formulations across Cardiology, ICU, and Pain Management.
+              A premier global pharmaceutical manufacturer delivering patient-centric formulations across Cardiology, Antifungal, Anaesthesia and ICU range.
             </p>
 
           </div>

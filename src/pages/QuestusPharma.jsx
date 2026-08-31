@@ -7,19 +7,19 @@ import { motion } from 'framer-motion';
 const QuestusPharma = () => {
 
   const directors = [
-    { name: "Mr. Asheesh Bhatnagar", role: "Director - Sales, Marketing & Business Development" },
-    { name: "Mrs. Pameela Paruchuri", role: "Director - Finance, Legal & CS" }
+    { name: "Asheesh Bhatnagar", role: "Director - Sales, Marketing & Business Development" },
+    { name: "Pameela Paruchuri", role: "Director - Finance, Legal & CS" }
   ];
 
   const salesTeam = [
-    { name: "Mr. Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" },
-    { name: "Mr. Naik Pravin Purushottam", role: "General Manager (Sales)" },
-    { name: "Mr. Pawan Arora", role: "Sales Manager" },
-    { name: "Mr. M. Raghurama Chary", role: "Sales Manager" },
-    { name: "Mr. Akhilesh Kumar Vishwakarma", role: "Divisional Sales Manager" },
-    { name: "Mr. Debasish Rudra", role: "Divisional Sales Manager" },
-    { name: "Mr. Shiv Rajendra Agrahari", role: "Divisional Sales Manager" },
-    { name: "Mr. Agrawal Bhuvanbhai Ramchandra", role: "Divisional Sales Manager" },
+    { name: "Shailesh Kumar Pandey", role: "Associate Vice President (Sales)" },
+    { name: "Naik Pravin Purushottam", role: "General Manager (Sales)" },
+    { name: "Pawan Arora", role: "Sales Manager" },
+    { name: "M. Raghurama Chary", role: "Sales Manager" },
+    { name: "Akhilesh Kumar Vishwakarma", role: "Divisional Sales Manager" },
+    { name: "Debasish Rudra", role: "Divisional Sales Manager" },
+    { name: "Shiv Rajendra Agrahari", role: "Divisional Sales Manager" },
+    { name: "Agrawal Bhuvanbhai Ramchandra", role: "Divisional Sales Manager" },
   ]
 
   return (
