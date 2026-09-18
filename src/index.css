@@ -4,12 +4,27 @@
 
 @layer base {
   html {
-    font-size: 105%;
-    /* Increases base rem size slightly */
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  @screen lg {
+    html {
+      font-size: 105%;
+    }
   }
 
   body {
     @apply bg-brand-light text-brand-dark antialiased font-sans;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  #root {
+    overflow-x: hidden;
+    width: 100%;
   }
 }
 

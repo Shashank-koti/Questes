@@ -25,39 +25,39 @@ const VisionMission = () => {
   return (
     <div className="bg-brand-light min-h-screen">
       {/* Page Header */}
-      <section className="relative py-24 bg-brand-dark overflow-hidden">
+      <section className="relative py-14 sm:py-20 md:py-24 bg-brand-dark overflow-hidden">
         <img src="/images/bg/vision_bg_better_1784459322599.png" alt="Background" className="absolute inset-0 w-full h-full object-cover z-0" />
 
-        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold uppercase tracking-wider">
-            <Sparkles className="w-4 h-4 text-brand-accent" /> Core Purpose
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 relative z-10 text-center space-y-3 sm:space-y-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs sm:text-sm font-semibold uppercase tracking-wider">
+            <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-brand-accent" /> Core Purpose
           </span>
-          <h1 className="text-5xl md:text-7xl font-serif font-black text-white tracking-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-black text-white tracking-tight">
             Vision & <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Mission</span>
           </h1>
-          <p className="text-xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
+          <p className="text-base sm:text-lg md:text-xl text-brand-faint/80 max-w-2xl mx-auto font-medium leading-relaxed [text-shadow:_0_1px_3px_rgb(0_0_0_/_100%)]">
             To develop and manufacture high quality, affordable pharmaceutical products through innovation.
           </p>
         </div>
       </section>
 
       {/* Vision & Mission Sections */}
-      <section className="py-16 md:py-24 bg-white relative">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-6 space-y-16 md:space-y-24 lg:space-y-32">
+      <section className="py-12 sm:py-16 md:py-24 bg-white relative">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 space-y-12 sm:space-y-16 md:space-y-24">
 
           {/* Vision Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="space-y-5 order-2 lg:order-1"
+              className="space-y-3 sm:space-y-5 order-2 lg:order-1"
             >
-              <h3 className="text-3xl md:text-5xl font-serif font-black text-brand-dark flex items-center gap-3">
-                <Eye className="w-8 h-8 text-brand-primary" /> Our Vision
+              <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark flex items-center gap-2.5 sm:gap-3">
+                <Eye className="w-6 h-6 sm:w-8 sm:h-8 text-brand-primary flex-shrink-0" /> Our Vision
               </h3>
-              <p className="text-brand-muted leading-relaxed text-base md:text-lg font-light">
+              <p className="text-brand-muted leading-relaxed text-sm sm:text-base md:text-lg font-light">
                 To create a world where quality medicines are accessible to everyone, contributing to better healthcare outcomes and improved quality of life.
               </p>
             </motion.div>
@@ -67,7 +67,7 @@ const VisionMission = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative rounded-[2rem] overflow-hidden shadow-xl h-[300px] md:h-[400px] order-1 lg:order-2"
+              className="relative rounded-2xl sm:rounded-[2rem] overflow-hidden shadow-xl h-[220px] sm:h-[300px] md:h-[380px] order-1 lg:order-2"
             >
               <img
                 src="/images/vission.jpg"
@@ -78,13 +78,13 @@ const VisionMission = () => {
           </div>
 
           {/* Mission Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative rounded-[2rem] overflow-hidden shadow-xl h-[300px] md:h-[400px]"
+              className="relative rounded-2xl sm:rounded-[2rem] overflow-hidden shadow-xl h-[220px] sm:h-[300px] md:h-[380px]"
             >
               <img
                 src="/images/mission.jpg"
@@ -98,36 +98,36 @@ const VisionMission = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="space-y-5"
+              className="space-y-3 sm:space-y-5"
             >
-              <h3 className="text-3xl md:text-5xl font-serif font-black text-brand-dark flex items-center gap-3">
-                <Target className="w-8 h-8 text-brand-secondary" /> Our Mission
+              <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark flex items-center gap-2.5 sm:gap-3">
+                <Target className="w-6 h-6 sm:w-8 sm:h-8 text-brand-secondary flex-shrink-0" /> Our Mission
               </h3>
-              <p className="text-brand-muted leading-relaxed text-base md:text-lg font-light">
+              <p className="text-brand-muted leading-relaxed text-sm sm:text-base md:text-lg font-light">
                 To develop and manufacture high quality, affordable pharmaceutical products through innovation, advanced technology, and scientific excellence while maintaining the highest standards of quality and integrity.
               </p>
             </motion.div>
           </div>
 
           {/* Core Values / Future Outlook */}
-          <div className="border-t border-b border-brand-border py-16 relative overflow-hidden text-center">
+          <div className="border-t border-b border-brand-border py-12 sm:py-16 md:py-20 relative overflow-hidden text-center">
             <div className="absolute inset-0 bg-brand-light/30 mix-blend-multiply"></div>
-            <div className="relative z-10 max-w-4xl mx-auto space-y-8">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-[0.2em] uppercase text-sm block">The Foundation of Our Work</span>
-              <h3 className="text-3xl md:text-5xl font-serif font-black text-brand-dark leading-tight">
+            <div className="relative z-10 max-w-4xl mx-auto space-y-4 sm:space-y-6">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft font-bold tracking-[0.2em] uppercase text-xs sm:text-sm block">The Foundation of Our Work</span>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark leading-tight">
                 Empowering the Future of <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft">Healthcare</span>
               </h3>
-              <p className="text-brand-muted leading-relaxed text-base md:text-lg font-light">
+              <p className="text-brand-muted leading-relaxed text-sm sm:text-base md:text-lg font-light max-w-3xl mx-auto">
                 At Questus Pharma, our Vision and Mission are not just statements on a wall—they are the guiding principles embedded in every formulation we create. We stand committed to breaking barriers in medical accessibility and forging a brighter, healthier future for communities everywhere.
               </p>
-              <div className="flex justify-center gap-6 pt-4">
-                <div className="flex items-center gap-2 text-brand-dark font-bold text-sm uppercase tracking-wider">
+              <div className="flex flex-wrap justify-center gap-3 sm:gap-6 pt-2 sm:pt-4">
+                <div className="flex items-center gap-2 text-brand-dark font-bold text-xs sm:text-sm uppercase tracking-wider">
                   <ShieldCheck className="w-4 h-4 text-brand-primary" /> Integrity
                 </div>
-                <div className="flex items-center gap-2 text-brand-dark font-bold text-sm uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-brand-dark font-bold text-xs sm:text-sm uppercase tracking-wider">
                   <Sparkles className="w-4 h-4 text-brand-secondary" /> Innovation
                 </div>
-                <div className="flex items-center gap-2 text-brand-dark font-bold text-sm uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-brand-dark font-bold text-xs sm:text-sm uppercase tracking-wider">
                   <Award className="w-4 h-4 text-brand-primary" /> Excellence
                 </div>
               </div>

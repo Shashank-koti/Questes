@@ -33,18 +33,18 @@ const Home = () => {
       <HeroSlider />
 
       {/* SECTION 1: Premium Corporate Intro */}
-      <section className="py-24 md:py-32 bg-white relative overflow-hidden">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+      <section className="py-14 sm:py-20 md:py-28 lg:py-32 bg-white relative overflow-hidden">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-14 lg:gap-24 items-center">
 
             {/* Image Column with Glassmorphic Card overlay */}
-            <div className="relative order-2 lg:order-1">
+            <div className="relative order-2 lg:order-1 pt-2 sm:pt-4">
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="relative rounded-[2rem] overflow-hidden shadow-xl border-none max-w-lg mx-auto lg:max-w-none w-full h-[400px] md:h-[400px]"
+                className="relative rounded-2xl sm:rounded-[2rem] overflow-hidden shadow-xl border-none max-w-lg mx-auto lg:max-w-none w-full h-[260px] sm:h-[340px] md:h-[400px]"
               >
                 <img
                   src="/images/pharma_home_hero.png"
@@ -59,31 +59,31 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="absolute -bottom-8 right-2 sm:-right-4 md:-right-12 bg-white/90 backdrop-blur-xl p-6 md:p-8 rounded-[2rem] shadow-[0_20px_50px_rgba(14,22,36,0.1)] border border-white max-w-[200px] md:max-w-[280px]"
+                className="absolute -bottom-5 sm:-bottom-8 right-2 sm:right-4 md:-right-6 bg-white/95 backdrop-blur-xl p-4 sm:p-6 md:p-8 rounded-2xl sm:rounded-[2rem] shadow-[0_20px_50px_rgba(14,22,36,0.12)] border border-white max-w-[200px] sm:max-w-[240px] md:max-w-[280px]"
               >
-                <div className="flex items-center justify-between border-t border-brand-border/30 ">
+                <div className="flex items-center justify-between border-t border-brand-border/30 pt-2">
                   <div>
-                    <p className="text-3xl md:text-4xl font-black text-brand-primary">100<span className="text-lg md:text-xl text-brand-accent">+</span></p>
-                    <p className="text-[10px] md:text-sm font-bold text-brand-dark uppercase tracking-wider">SKUs</p>
+                    <p className="text-2xl sm:text-3xl md:text-4xl font-black text-brand-primary">100<span className="text-base sm:text-lg md:text-xl text-brand-accent">+</span></p>
+                    <p className="text-[9px] sm:text-xs md:text-sm font-bold text-brand-dark uppercase tracking-wider">SKUs</p>
                   </div>
-                  <div className="w-px h-10 bg-brand-border/30 mx-2"></div>
+                  <div className="w-px h-8 sm:h-10 bg-brand-border/30 mx-2"></div>
                   <div>
-                    <p className="text-3xl md:text-4xl font-black text-brand-secondary">100<span className="text-lg md:text-xl text-brand-soft">%</span></p>
-                    <p className="text-[10px] md:text-sm font-bold text-brand-dark uppercase tracking-wider">cGMP</p>
+                    <p className="text-2xl sm:text-3xl md:text-4xl font-black text-brand-secondary">100<span className="text-base sm:text-lg md:text-xl text-brand-soft">%</span></p>
+                    <p className="text-[9px] sm:text-xs md:text-sm font-bold text-brand-dark uppercase tracking-wider">cGMP</p>
                   </div>
                 </div>
               </motion.div>
             </div>
 
             {/* Text Column */}
-            <div className="order-1 lg:order-2 space-y-8 lg:pl-8 relative z-10">
+            <div className="order-1 lg:order-2 space-y-5 sm:space-y-6 lg:space-y-8 lg:pl-8 relative z-10">
 
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-3xl sm:text-4xl lg:text-4xl font-serif font-black text-brand-dark leading-[1.1] tracking-tight"
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-serif font-black text-brand-dark leading-[1.15] tracking-tight"
               >
                 Excellence Through <br />
                 <span className="text-brand-primary">Expertise</span>
@@ -94,7 +94,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-xl text-brand-muted font-sans font-light leading-relaxed"
+                className="text-base sm:text-lg md:text-xl text-brand-muted font-sans font-light leading-relaxed"
               >
                 At Questus Pharma, we combine infrastructure, scientific expertise, and passion to develop pharmaceutical solutions that improve lives. Our integrated Research & Development and Manufacturing Centre spans over 6 acres, supported by a 12,000 sq. ft. Center of Excellence, enabling us to deliver quality medicines for global healthcare markets.
               </motion.p>
@@ -104,14 +104,14 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="pt-4"
+                className="pt-2 sm:pt-4"
               >
                 <Link
                   to="/about/questus-pharma"
-                  className="group inline-flex items-center justify-center gap-3 bg-brand-dark hover:bg-gradient-to-r hover:from-brand-accent hover:to-brand-soft text-white font-semibold px-8 py-4 rounded-full transition-all duration-500 ease-out shadow-lg"
+                  className="group inline-flex items-center justify-center gap-3 bg-brand-dark hover:bg-gradient-to-r hover:from-brand-accent hover:to-brand-soft text-white font-semibold px-6 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-500 ease-out shadow-lg text-sm sm:text-base"
                 >
                   Discover Our Story
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
               </motion.div>
             </div>
@@ -121,18 +121,18 @@ const Home = () => {
       </section>
 
       {/* SECTION 2: WHAT WE OFFER (Premium Image Cards) */}
-      <section className="py-24 md:py-32 bg-brand-faint relative">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-6">
+      <section className="py-14 sm:py-20 md:py-28 lg:py-32 bg-brand-faint relative">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
 
-          <div className="flex flex-col md:flex-row md:items-end justify-center gap-8 mb-16 md:mb-24">
-            <div className="max-w-3xl space-y-4 text-center">
-              <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
+          <div className="flex flex-col md:flex-row md:items-end justify-center gap-8 mb-12 sm:mb-16 md:mb-20">
+            <div className="max-w-3xl space-y-3 sm:space-y-4 text-center">
+              <span className="text-[10px] sm:text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
                 WHY QUESTUS PHARMA?
               </span>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-black text-brand-dark leading-tight tracking-tight uppercase">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark leading-tight tracking-tight uppercase">
                 Specialized Focus on Critical Care Segments
               </h2>
-              <p className="text-xl text-brand-muted font-sans font-light leading-relaxed mt-4">
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-brand-muted font-sans font-light leading-relaxed mt-2 sm:mt-4">
                 State-of-the-Art R&D and Manufacturing Facilities • Experienced Pharmaceutical Leadership • Global Quality Standards • Commitment to Innovation and Patient Care
               </p>
             </div>
@@ -147,10 +147,10 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.15, duration: 0.7, ease: "easeOut" }}
-                className="group block relative rounded-[2rem] overflow-hidden bg-white shadow-[0_10px_30px_rgba(0,0,0,0.05)] border-none hover:-translate-y-2 transition-all duration-500"
+                className="group block relative rounded-2xl sm:rounded-[2rem] overflow-hidden bg-white shadow-[0_10px_30px_rgba(0,0,0,0.05)] border-none hover:-translate-y-2 transition-all duration-500"
               >
                 {/* Image Container with Zoom effect */}
-                <div className="relative h-40 md:h-48 overflow-hidden">
+                <div className="relative h-44 sm:h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-brand-dark/10 group-hover: transition-colors duration-500 z-10"></div>
                   <img
                     src={card.image}
@@ -167,11 +167,11 @@ const Home = () => {
                 </div>
 
                 {/* Card Content */}
-                <div className="p-6 md:p-8 bg-white relative z-20">
-                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-brand-dark mb-3 group-hover:text-brand-accent transition-colors duration-300">
+                <div className="p-5 sm:p-6 md:p-8 bg-white relative z-20">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-brand-dark mb-2 sm:mb-3 group-hover:text-brand-accent transition-colors duration-300">
                     {card.title}
                   </h3>
-                  <p className="text-brand-muted font-sans font-light leading-relaxed">
+                  <p className="text-brand-muted font-sans font-light text-sm sm:text-base leading-relaxed">
                     {card.desc}
                   </p>
                 </div>
@@ -181,12 +181,12 @@ const Home = () => {
           </div>
 
           {/* Stats Display area */}
-          <div className="mt-16 md:mt-32 pt-12 md:pt-20 border-t border-brand-border/10">
-            <div className="text-center max-w-xl mx-auto mb-12 space-y-4">
-              <span className="text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
+          <div className="mt-12 sm:mt-20 md:mt-28 pt-8 sm:pt-14 md:pt-20 border-t border-brand-border/20">
+            <div className="text-center max-w-xl mx-auto mb-8 sm:mb-12 space-y-2 sm:space-y-3">
+              <span className="text-[10px] sm:text-[11px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-brand-soft uppercase tracking-[0.2em] block">
                 At a Glance
               </span>
-              <h3 className="text-4xl md:text-5xl font-serif font-black text-brand-dark">Questus Global Footprint</h3>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-black text-brand-dark">Questus Global Footprint</h3>
             </div>
             <DisplayData />
           </div>

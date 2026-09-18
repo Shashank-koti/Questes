@@ -56,16 +56,16 @@ const contactForm = () => {
   };
 
   return (
-    <div className="bg-white rounded-3xl p-5 sm:p-8 md:p-12 border border-brand-border shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-full">
-      <div className="mb-8">
-        <h3 className="text-3xl font-bold text-brand-dark mb-2">Send us a Message</h3>
-        <p className="text-brand-muted font-light text-base">We'll get back to you within 24 hours.</p>
+    <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-7 md:p-10 border border-brand-border shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-full">
+      <div className="mb-6 sm:mb-8">
+        <h3 className="text-2xl sm:text-3xl font-bold text-brand-dark mb-1.5 sm:mb-2">Send us a Message</h3>
+        <p className="text-brand-muted font-light text-sm sm:text-base">We'll get back to you within 24 hours.</p>
       </div>
 
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
 
         <div>
-          <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
+          <label className="block text-xs sm:text-sm font-bold text-brand-muted uppercase tracking-wider mb-1.5 sm:mb-2">
             FULL NAME <span className="text-red-400">*</span>
           </label>
           <input
@@ -74,13 +74,13 @@ const contactForm = () => {
             required
             value={formData.name}
             onChange={handleInputChange}
-            className="w-full px-4 py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium"
+            className="w-full px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium text-sm sm:text-base"
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
           <div>
-            <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
+            <label className="block text-xs sm:text-sm font-bold text-brand-muted uppercase tracking-wider mb-1.5 sm:mb-2">
               EMAIL <span className="text-red-400">*</span>
             </label>
             <input
@@ -89,11 +89,11 @@ const contactForm = () => {
               required
               value={formData.email}
               onChange={handleInputChange}
-              className="w-full px-4 py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium"
+              className="w-full px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium text-sm sm:text-base"
             />
           </div>
           <div>
-            <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
+            <label className="block text-xs sm:text-sm font-bold text-brand-muted uppercase tracking-wider mb-1.5 sm:mb-2">
               MOBILE <span className="text-red-400">*</span>
             </label>
             <input
@@ -102,13 +102,13 @@ const contactForm = () => {
               required
               value={formData.mobile}
               onChange={handleInputChange}
-              className="w-full px-4 py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium"
+              className="w-full px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium text-sm sm:text-base"
             />
           </div>
         </div>
 
         <div>
-          <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
+          <label className="block text-xs sm:text-sm font-bold text-brand-muted uppercase tracking-wider mb-1.5 sm:mb-2">
             COUNTRY <span className="text-red-400">*</span>
           </label>
           <input
@@ -117,12 +117,12 @@ const contactForm = () => {
             required
             value={formData.country}
             onChange={handleInputChange}
-            className="w-full px-4 py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium"
+            className="w-full px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none text-brand-dark font-medium text-sm sm:text-base"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-bold text-brand-muted uppercase tracking-wider mb-2">
+          <label className="block text-xs sm:text-sm font-bold text-brand-muted uppercase tracking-wider mb-1.5 sm:mb-2">
             MESSAGE <span className="text-red-400">*</span>
           </label>
           <textarea
@@ -131,7 +131,7 @@ const contactForm = () => {
             rows="4"
             value={formData.message}
             onChange={handleInputChange}
-            className="w-full px-4 py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none resize-none text-brand-dark font-medium"
+            className="w-full px-3.5 sm:px-4 py-2.5 sm:py-3.5 rounded-xl bg-brand-light border border-brand-border focus:bg-white focus:border-brand-primary focus:ring-2 focus:ring-brand-primary/10 transition-all outline-none resize-none text-brand-dark font-medium text-sm sm:text-base"
             placeholder="Tell us about your requirements..."
           ></textarea>
         </div>
@@ -139,7 +139,7 @@ const contactForm = () => {
         <button
           type="submit"
           disabled={formStatus !== 'idle'}
-          className={`w-full py-4 rounded-xl font-bold text-white transition-all duration-300 flex items-center justify-center gap-2 ${formStatus === 'success'
+          className={`w-full py-3.5 sm:py-4 rounded-xl font-bold text-white transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base ${formStatus === 'success'
             ? 'bg-green-500'
             : 'bg-brand-primary hover:bg-brand-dark shadow-lg hover:shadow-xl hover:-translate-y-0.5'
             }`}

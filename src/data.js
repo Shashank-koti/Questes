@@ -9,7 +9,7 @@ export const heroSlides = [
     desc: "Improving patient outcomes through high quality formulations in Cardiology, Anesthesia, and Critical Care.",
     btn: "Our Science",
     link: "/science",
-    image: "/images/hero_slide_2.png",
+    image: "/images/hero_slide_1_new.jpg",
     // icon: <Activity className="w-5 h-5 text-brand-primary" />
   },
   {
@@ -19,7 +19,7 @@ export const heroSlides = [
     desc: "Developing medicines that meet global quality standards to support healthcare professionals.",
     btn: "View Portfolio",
     link: "/portfolio",
-    image: "/images/slide2.png",
+    image: "/images/hero_slide_2_new.jpg",
     // icon: <FlaskConical className="w-5 h-5 text-cyan-400" />
   },
   {
@@ -29,7 +29,7 @@ export const heroSlides = [
     desc: "Delivering critical care solutions globally through scientific excellence and a patient-centric approach.",
     btn: "About Us",
     link: "/about/questus-pharma",
-    image: "/images/slide3.png",
+    image: "/images/hero_slide_3_new.jpg",
     // icon: <ShieldCheck className="w-5 h-5 text-blue-400" />
   }
 ];
@@ -597,12 +597,12 @@ export const portfolioData = [
         "dosage_form": "Dry Powder Vial"
       },
       {
-        "brand_name": "QUEROPEN 500",
+        "brand_name": "QEROPEN 500",
         "generic_name": "Meropenem Inj IP 500 mg",
         "dosage_form": "Dry Powder Vial"
       },
       {
-        "brand_name": "QUEROPEN 1000",
+        "brand_name": "QEROPEN 1000",
         "generic_name": "Meropenem Inj IP 1000 mg",
         "dosage_form": "Dry Powder Vial"
       },

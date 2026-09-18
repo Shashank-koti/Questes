@@ -15,7 +15,7 @@ import Science from './pages/Science';
 
 function PageWrapper({ children }) {
   return (
-    <div className="pt-20 lg:pt-24 min-h-[calc(100vh-100px)]">
+    <div className="pt-16 sm:pt-20 lg:pt-20 min-h-[calc(100vh-68px)] w-full overflow-x-hidden">
       {children}
     </div>
   );
@@ -24,9 +24,9 @@ function PageWrapper({ children }) {
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-brand-light font-sans text-brand-dark selection:bg-brand-primary/30 selection:text-brand-dark">
+      <div className="min-h-screen flex flex-col bg-brand-light font-sans text-brand-dark selection:bg-brand-primary/30 selection:text-brand-dark w-full overflow-x-hidden">
         <Navbar />
-        <main className="flex-grow">
+        <main className="flex-grow w-full overflow-x-hidden">
           <Routes>
             {/* Home Route */}
             <Route path="/" element={<Home />} />
